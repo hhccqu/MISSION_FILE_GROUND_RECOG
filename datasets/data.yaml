@@ -1,0 +1,12 @@
+train: E:/desktop/CQUGRS/datasets/train/images
+val: E:/desktop/CQUGRS/datasets/valid/images
+
+nc: 1
+names: ['-sign-']
+
+roboflow:
+  workspace: chouzhipeng
+  project: detectsign-kxzp6
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/chouzhipeng/detectsign-kxzp6/dataset/1
