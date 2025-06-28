@@ -1,0 +1,5 @@
+names:
+- -sign-
+nc: 1
+train: D:/AirmodelingTeam/CQU_Ground_Recog_Strile_YoloOcr/datasets/train/images
+val: D:/AirmodelingTeam/CQU_Ground_Recog_Strile_YoloOcr/datasets/valid/images

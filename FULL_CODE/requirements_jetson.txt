@@ -1,0 +1,23 @@
+# Jetson专用依赖配置
+# 注意：torch和torchvision需要使用NVIDIA官方wheel或特殊安装方式
+
+# 基础数值计算库
+numpy>=1.19.0
+scipy>=1.5.0
+
+# 图像处理 - 使用系统OpenCV
+# opencv-python>=4.5.0  # 注释掉，使用系统安装的OpenCV
+
+# 机器学习框架 - 需要特殊安装
+# torch>=1.7.0  # 注释掉，使用NVIDIA官方wheel
+# torchvision>=0.8.0  # 注释掉，使用NVIDIA官方wheel
+
+# OCR相关
+easyocr>=1.6.0
+Pillow>=8.0.0
+pyclipper>=1.2.0
+shapely>=1.7.0
+scikit-image>=0.17.0
+
+# 无人机通信
+pymavlink>=2.4.0 

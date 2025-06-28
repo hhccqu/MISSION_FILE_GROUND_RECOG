@@ -3,7 +3,7 @@
 from ultralytics import YOLO
 
 class YOLODetector:
-    def __init__(self, model_path="weights/best.pt", conf_thres=0.25):
+    def __init__(self, model_path="weights/best1.pt", conf_thres=0.25):
         """
         model_path: YOLO 模型权重文件 (best.pt)
         conf_thres: 置信度阈值

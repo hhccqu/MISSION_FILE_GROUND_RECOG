@@ -1,0 +1,23 @@
+name: jetson_yolo
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.8
+  - numpy>=1.19.0
+  - scipy>=1.5.0
+  - matplotlib
+  - pillow>=8.0.0
+  - scikit-image>=0.17.0
+  - seaborn
+  - pip
+  - pip:
+    - easyocr>=1.6.0
+    - pyclipper>=1.2.0
+    - shapely>=1.7.0
+    - pymavlink>=2.4.0
+    - pycuda
+    - ultralytics
+    - thop
+    # 注意：PyTorch需要手动安装Jetson版本
+    # pip install torch-2.0.0-cp38-cp38-linux_aarch64.whl 

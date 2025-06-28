@@ -84,7 +84,7 @@ class ArrowProcessor:
 
 def main():
     # 初始化检测器和处理器
-    detector = YOLODetector(model_path="weights/best.pt", conf_thres=0.25)
+    detector = YOLODetector(model_path="D:/AirmodelingTeam/CQU_Ground_Recog_Strile_YoloOcr/weights/best.pt", conf_thres=0.25)
     processor = ArrowProcessor()
     
     # 视频输入设置
@@ -94,6 +94,8 @@ def main():
 
     while True:
         ret, frame = cap.read()
+
+        
         if not ret:
             break
 
@@ -164,3 +166,25 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
