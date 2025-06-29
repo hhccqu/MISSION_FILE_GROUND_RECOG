@@ -34,11 +34,9 @@ def main():
         'save_file': 'strike_targets.json',  # 保存文件
     }
     
-    # 视频源（按优先级）
+    # 视频源（固定使用video2.mp4 - 绝对路径）
     video_sources = [
-        "D:/AirmodelingTeam/CQU_Ground_Recog_Strile_YoloOcr/video2.mp4",
-        0,  # 默认摄像头
-        1,  # 第二个摄像头
+        "D:/AirmodelingTeam/MISSION_FILE_GROUND_RECOG/video2.mp4",  # 绝对路径
     ]
     
     print("📋 任务配置:")

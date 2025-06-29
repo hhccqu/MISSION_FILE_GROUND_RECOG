@@ -477,11 +477,9 @@ def main():
         'max_targets_per_frame': 5
     }
     
-    # 视频源选项
+    # 视频源选项 - 固定使用video2.mp4 (绝对路径)
     video_sources = [
-        "D:/AirmodelingTeam/CQU_Ground_Recog_Strile_YoloOcr/video2.mp4",
-        0,  # 摄像头
-        1,
+        "D:/AirmodelingTeam/MISSION_FILE_GROUND_RECOG/video2.mp4",  # 绝对路径
     ]
     
     # 创建任务系统
