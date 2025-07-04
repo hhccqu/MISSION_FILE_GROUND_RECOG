@@ -1,0 +1,2302 @@
+{
+  "test_time": "2025-06-29T16:06:36.317172",
+  "total_time": 199.4079999923706,
+  "statistics": {
+    "total_images": 21,
+    "successful_images": 17,
+    "success_rate": 80.95238095238095,
+    "total_digits_found": 30,
+    "avg_processing_time": 9.123750743411836
+  },
+  "results": [
+    {
+      "image_name": "1_target_1_original.jpg",
+      "image_path": "DEMO_DETECT_TEST/yolo_arrow_test_results\\1_target_1_original.jpg",
+      "processing_time": 8.736578464508057,
+      "original_results": [],
+      "processed_results": [
+        {
+          "bbox": [
+            [
+              30,
+              65
+            ],
+            [
+              89,
+              70
+            ],
+            [
+              83,
+              118
+            ],
+            [
+              25,
+              113
+            ]
+          ],
+          "text": "95",
+          "confidence": 0.9689552783966064,
+          "digits": "95"
+        }
+      ],
+      "original_digits": [],
+      "processed_digits": [
+        {
+          "bbox": [
+            [
+              30,
+              65
+            ],
+            [
+              89,
+              70
+            ],
+            [
+              83,
+              118
+            ],
+            [
+              25,
+              113
+            ]
+          ],
+          "text": "95",
+          "confidence": 0.9689552783966064,
+          "digits": "95"
+        }
+      ],
+      "best_result": {
+        "bbox": [
+          [
+            30,
+            65
+          ],
+          [
+            89,
+            70
+          ],
+          [
+            83,
+            118
+          ],
+          [
+            25,
+            113
+          ]
+        ],
+        "text": "95",
+        "confidence": 0.9689552783966064,
+        "digits": "95"
+      },
+      "best_source": "预处理图像",
+      "success": true
+    },
+    {
+      "image_name": "1_target_2_original.jpg",
+      "image_path": "DEMO_DETECT_TEST/yolo_arrow_test_results\\1_target_2_original.jpg",
+      "processing_time": 9.76070499420166,
+      "original_results": [
+        {
+          "bbox": [
+            [
+              78,
+              31
+            ],
+            [
+              142,
+              47
+            ],
+            [
+              127,
+              98
+            ],
+            [
+              62,
+              82
+            ]
+          ],
+          "text": "44",
+          "confidence": 0.7899815440177917,
+          "digits": "44"
+        }
+      ],
+      "processed_results": [
+        {
+          "bbox": [
+            [
+              77,
+              29
+            ],
+            [
+              135,
+              39
+            ],
+            [
+              123,
+              95
+            ],
+            [
+              65,
+              85
+            ]
+          ],
+          "text": "04",
+          "confidence": 0.7040848731994629,
+          "digits": "04"
+        }
+      ],
+      "original_digits": [
+        {
+          "bbox": [
+            [
+              78,
+              31
+            ],
+            [
+              142,
+              47
+            ],
+            [
+              127,
+              98
+            ],
+            [
+              62,
+              82
+            ]
+          ],
+          "text": "44",
+          "confidence": 0.7899815440177917,
+          "digits": "44"
+        }
+      ],
+      "processed_digits": [
+        {
+          "bbox": [
+            [
+              77,
+              29
+            ],
+            [
+              135,
+              39
+            ],
+            [
+              123,
+              95
+            ],
+            [
+              65,
+              85
+            ]
+          ],
+          "text": "04",
+          "confidence": 0.7040848731994629,
+          "digits": "04"
+        }
+      ],
+      "best_result": {
+        "bbox": [
+          [
+            77,
+            29
+          ],
+          [
+            135,
+            39
+          ],
+          [
+            123,
+            95
+          ],
+          [
+            65,
+            85
+          ]
+        ],
+        "text": "04",
+        "confidence": 0.7040848731994629,
+        "digits": "04"
+      },
+      "best_source": "预处理图像",
+      "success": true
+    },
+    {
+      "image_name": "1_target_3_original.jpg",
+      "image_path": "DEMO_DETECT_TEST/yolo_arrow_test_results\\1_target_3_original.jpg",
+      "processing_time": 12.826309204101562,
+      "original_results": [
+        {
+          "bbox": [
+            [
+              26,
+              48
+            ],
+            [
+              65,
+              30
+            ],
+            [
+              77,
+              51
+            ],
+            [
+              38,
+              70
+            ]
+          ],
+          "text": "9",
+          "confidence": 0.9962576627731323,
+          "digits": "9"
+        },
+        {
+          "bbox": [
+            [
+              41,
+              73
+            ],
+            [
+              80,
+              55
+            ],
+            [
+              93,
+              78
+            ],
+            [
+              54,
+              96
+            ]
+          ],
+          "text": "3",
+          "confidence": 0.539589524269104,
+          "digits": "3"
+        }
+      ],
+      "processed_results": [
+        {
+          "bbox": [
+            [
+              59,
+              50
+            ],
+            [
+              84,
+              34
+            ],
+            [
+              105,
+              74
+            ],
+            [
+              80,
+              90
+            ]
+          ],
+          "text": "3",
+          "confidence": 0.83588045835495,
+          "digits": "3"
+        },
+        {
+          "bbox": [
+            [
+              27,
+              64
+            ],
+            [
+              52,
+              49
+            ],
+            [
+              71,
+              90
+            ],
+            [
+              46,
+              104
+            ]
+          ],
+          "text": "6",
+          "confidence": 0.8533493280410767,
+          "digits": "6"
+        }
+      ],
+      "original_digits": [
+        {
+          "bbox": [
+            [
+              26,
+              48
+            ],
+            [
+              65,
+              30
+            ],
+            [
+              77,
+              51
+            ],
+            [
+              38,
+              70
+            ]
+          ],
+          "text": "9",
+          "confidence": 0.9962576627731323,
+          "digits": "9"
+        },
+        {
+          "bbox": [
+            [
+              41,
+              73
+            ],
+            [
+              80,
+              55
+            ],
+            [
+              93,
+              78
+            ],
+            [
+              54,
+              96
+            ]
+          ],
+          "text": "3",
+          "confidence": 0.539589524269104,
+          "digits": "3"
+        }
+      ],
+      "processed_digits": [
+        {
+          "bbox": [
+            [
+              59,
+              50
+            ],
+            [
+              84,
+              34
+            ],
+            [
+              105,
+              74
+            ],
+            [
+              80,
+              90
+            ]
+          ],
+          "text": "3",
+          "confidence": 0.83588045835495,
+          "digits": "3"
+        },
+        {
+          "bbox": [
+            [
+              27,
+              64
+            ],
+            [
+              52,
+              49
+            ],
+            [
+              71,
+              90
+            ],
+            [
+              46,
+              104
+            ]
+          ],
+          "text": "6",
+          "confidence": 0.8533493280410767,
+          "digits": "6"
+        }
+      ],
+      "best_result": {
+        "bbox": [
+          [
+            27,
+            64
+          ],
+          [
+            52,
+            49
+          ],
+          [
+            71,
+            90
+          ],
+          [
+            46,
+            104
+          ]
+        ],
+        "text": "6",
+        "confidence": 0.8533493280410767,
+        "digits": "6"
+      },
+      "best_source": "预处理图像",
+      "success": true
+    },
+    {
+      "image_name": "1_target_4_original.jpg",
+      "image_path": "DEMO_DETECT_TEST/yolo_arrow_test_results\\1_target_4_original.jpg",
+      "processing_time": 8.622214317321777,
+      "original_results": [
+        {
+          "bbox": [
+            [
+              6,
+              35
+            ],
+            [
+              92,
+              46
+            ],
+            [
+              82,
+              110
+            ],
+            [
+              0,
+              99
+            ]
+          ],
+          "text": "DG",
+          "confidence": 0.2970033288002014
+        }
+      ],
+      "processed_results": [
+        {
+          "bbox": [
+            [
+              62,
+              19
+            ],
+            [
+              129,
+              41
+            ],
+            [
+              109,
+              96
+            ],
+            [
+              42,
+              74
+            ]
+          ],
+          "text": "2",
+          "confidence": 0.8162029981613159,
+          "digits": "2"
+        }
+      ],
+      "original_digits": [],
+      "processed_digits": [
+        {
+          "bbox": [
+            [
+              62,
+              19
+            ],
+            [
+              129,
+              41
+            ],
+            [
+              109,
+              96
+            ],
+            [
+              42,
+              74
+            ]
+          ],
+          "text": "2",
+          "confidence": 0.8162029981613159,
+          "digits": "2"
+        }
+      ],
+      "best_result": {
+        "bbox": [
+          [
+            62,
+            19
+          ],
+          [
+            129,
+            41
+          ],
+          [
+            109,
+            96
+          ],
+          [
+            42,
+            74
+          ]
+        ],
+        "text": "2",
+        "confidence": 0.8162029981613159,
+        "digits": "2"
+      },
+      "best_source": "预处理图像",
+      "success": true
+    },
+    {
+      "image_name": "1_target_5_original.jpg",
+      "image_path": "DEMO_DETECT_TEST/yolo_arrow_test_results\\1_target_5_original.jpg",
+      "processing_time": 9.744335174560547,
+      "original_results": [
+        {
+          "bbox": [
+            [
+              45,
+              34
+            ],
+            [
+              90,
+              57
+            ],
+            [
+              74,
+              100
+            ],
+            [
+              27,
+              76
+            ]
+          ],
+          "text": "0",
+          "confidence": 0.25168174505233765,
+          "digits": "0"
+        }
+      ],
+      "processed_results": [
+        {
+          "bbox": [
+            [
+              91,
+              29
+            ],
+            [
+              145,
+              45
+            ],
+            [
+              128,
+              90
+            ],
+            [
+              74,
+              76
+            ]
+          ],
+          "text": "4",
+          "confidence": 0.8964611291885376,
+          "digits": "4"
+        }
+      ],
+      "original_digits": [
+        {
+          "bbox": [
+            [
+              45,
+              34
+            ],
+            [
+              90,
+              57
+            ],
+            [
+              74,
+              100
+            ],
+            [
+              27,
+              76
+            ]
+          ],
+          "text": "0",
+          "confidence": 0.25168174505233765,
+          "digits": "0"
+        }
+      ],
+      "processed_digits": [
+        {
+          "bbox": [
+            [
+              91,
+              29
+            ],
+            [
+              145,
+              45
+            ],
+            [
+              128,
+              90
+            ],
+            [
+              74,
+              76
+            ]
+          ],
+          "text": "4",
+          "confidence": 0.8964611291885376,
+          "digits": "4"
+        }
+      ],
+      "best_result": {
+        "bbox": [
+          [
+            91,
+            29
+          ],
+          [
+            145,
+            45
+          ],
+          [
+            128,
+            90
+          ],
+          [
+            74,
+            76
+          ]
+        ],
+        "text": "4",
+        "confidence": 0.8964611291885376,
+        "digits": "4"
+      },
+      "best_source": "预处理图像",
+      "success": true
+    },
+    {
+      "image_name": "2_target_1_original.jpg",
+      "image_path": "DEMO_DETECT_TEST/yolo_arrow_test_results\\2_target_1_original.jpg",
+      "processing_time": 10.006746768951416,
+      "original_results": [
+        {
+          "bbox": [
+            [
+              60,
+              30
+            ],
+            [
+              90,
+              15
+            ],
+            [
+              99,
+              31
+            ],
+            [
+              68,
+              46
+            ]
+          ],
+          "text": "3",
+          "confidence": 0.9850826263427734,
+          "digits": "3"
+        },
+        {
+          "bbox": [
+            [
+              74,
+              48
+            ],
+            [
+              97,
+              37
+            ],
+            [
+              106,
+              55
+            ],
+            [
+              83,
+              66
+            ]
+          ],
+          "text": "G",
+          "confidence": 0.4759763479232788
+        }
+      ],
+      "processed_results": [
+        {
+          "bbox": [
+            [
+              2,
+              68
+            ],
+            [
+              32,
+              52
+            ],
+            [
+              41,
+              67
+            ],
+            [
+              12,
+              83
+            ]
+          ],
+          "text": "ω",
+          "confidence": 0.48500293493270874
+        }
+      ],
+      "original_digits": [
+        {
+          "bbox": [
+            [
+              60,
+              30
+            ],
+            [
+              90,
+              15
+            ],
+            [
+              99,
+              31
+            ],
+            [
+              68,
+              46
+            ]
+          ],
+          "text": "3",
+          "confidence": 0.9850826263427734,
+          "digits": "3"
+        }
+      ],
+      "processed_digits": [],
+      "best_result": {
+        "bbox": [
+          [
+            60,
+            30
+          ],
+          [
+            90,
+            15
+          ],
+          [
+            99,
+            31
+          ],
+          [
+            68,
+            46
+          ]
+        ],
+        "text": "3",
+        "confidence": 0.9850826263427734,
+        "digits": "3"
+      },
+      "best_source": "原始图像",
+      "success": true
+    },
+    {
+      "image_name": "2_target_2_original.jpg",
+      "image_path": "DEMO_DETECT_TEST/yolo_arrow_test_results\\2_target_2_original.jpg",
+      "processing_time": 8.628296136856079,
+      "original_results": [
+        {
+          "bbox": [
+            [
+              36,
+              24
+            ],
+            [
+              73,
+              37
+            ],
+            [
+              57,
+              75
+            ],
+            [
+              19,
+              61
+            ]
+          ],
+          "text": "NG",
+          "confidence": 0.2492823451757431
+        }
+      ],
+      "processed_results": [
+        {
+          "bbox": [
+            [
+              35,
+              25
+            ],
+            [
+              80,
+              39
+            ],
+            [
+              63,
+              82
+            ],
+            [
+              17,
+              68
+            ]
+          ],
+          "text": "L",
+          "confidence": 0.45692920684814453
+        }
+      ],
+      "original_digits": [],
+      "processed_digits": [],
+      "best_result": null,
+      "best_source": "无识别结果",
+      "success": false
+    },
+    {
+      "image_name": "2_target_3_original.jpg",
+      "image_path": "DEMO_DETECT_TEST/yolo_arrow_test_results\\2_target_3_original.jpg",
+      "processing_time": 10.535802602767944,
+      "original_results": [
+        {
+          "bbox": [
+            [
+              42,
+              47
+            ],
+            [
+              88,
+              60
+            ],
+            [
+              79,
+              97
+            ],
+            [
+              33,
+              85
+            ]
+          ],
+          "text": "21",
+          "confidence": 0.9892070293426514,
+          "digits": "21"
+        }
+      ],
+      "processed_results": [
+        {
+          "bbox": [
+            [
+              58,
+              34
+            ],
+            [
+              97,
+              40
+            ],
+            [
+              95,
+              82
+            ],
+            [
+              51,
+              77
+            ]
+          ],
+          "text": "21",
+          "confidence": 0.7832040786743164,
+          "digits": "21"
+        }
+      ],
+      "original_digits": [
+        {
+          "bbox": [
+            [
+              42,
+              47
+            ],
+            [
+              88,
+              60
+            ],
+            [
+              79,
+              97
+            ],
+            [
+              33,
+              85
+            ]
+          ],
+          "text": "21",
+          "confidence": 0.9892070293426514,
+          "digits": "21"
+        }
+      ],
+      "processed_digits": [
+        {
+          "bbox": [
+            [
+              58,
+              34
+            ],
+            [
+              97,
+              40
+            ],
+            [
+              95,
+              82
+            ],
+            [
+              51,
+              77
+            ]
+          ],
+          "text": "21",
+          "confidence": 0.7832040786743164,
+          "digits": "21"
+        }
+      ],
+      "best_result": {
+        "bbox": [
+          [
+            58,
+            34
+          ],
+          [
+            97,
+            40
+          ],
+          [
+            95,
+            82
+          ],
+          [
+            51,
+            77
+          ]
+        ],
+        "text": "21",
+        "confidence": 0.7832040786743164,
+        "digits": "21"
+      },
+      "best_source": "预处理图像",
+      "success": true
+    },
+    {
+      "image_name": "2_target_4_original.jpg",
+      "image_path": "DEMO_DETECT_TEST/yolo_arrow_test_results\\2_target_4_original.jpg",
+      "processing_time": 10.704242944717407,
+      "original_results": [
+        {
+          "bbox": [
+            [
+              30,
+              13
+            ],
+            [
+              77,
+              34
+            ],
+            [
+              61,
+              84
+            ],
+            [
+              13,
+              63
+            ]
+          ],
+          "text": "日",
+          "confidence": 0.2521335780620575
+        }
+      ],
+      "processed_results": [
+        {
+          "bbox": [
+            [
+              34,
+              22
+            ],
+            [
+              81,
+              38
+            ],
+            [
+              70,
+              83
+            ],
+            [
+              22,
+              67
+            ]
+          ],
+          "text": "DE",
+          "confidence": 0.29637113213539124
+        }
+      ],
+      "original_digits": [],
+      "processed_digits": [],
+      "best_result": null,
+      "best_source": "无识别结果",
+      "success": false
+    },
+    {
+      "image_name": "2_target_5_original.jpg",
+      "image_path": "DEMO_DETECT_TEST/yolo_arrow_test_results\\2_target_5_original.jpg",
+      "processing_time": 7.583838701248169,
+      "original_results": [],
+      "processed_results": [
+        {
+          "bbox": [
+            [
+              0,
+              63
+            ],
+            [
+              25,
+              51
+            ],
+            [
+              32,
+              70
+            ],
+            [
+              7,
+              82
+            ]
+          ],
+          "text": "3",
+          "confidence": 0.3823991119861603,
+          "digits": "3"
+        }
+      ],
+      "original_digits": [],
+      "processed_digits": [
+        {
+          "bbox": [
+            [
+              0,
+              63
+            ],
+            [
+              25,
+              51
+            ],
+            [
+              32,
+              70
+            ],
+            [
+              7,
+              82
+            ]
+          ],
+          "text": "3",
+          "confidence": 0.3823991119861603,
+          "digits": "3"
+        }
+      ],
+      "best_result": {
+        "bbox": [
+          [
+            0,
+            63
+          ],
+          [
+            25,
+            51
+          ],
+          [
+            32,
+            70
+          ],
+          [
+            7,
+            82
+          ]
+        ],
+        "text": "3",
+        "confidence": 0.3823991119861603,
+        "digits": "3"
+      },
+      "best_source": "预处理图像",
+      "success": true
+    },
+    {
+      "image_name": "3_target_1_original.jpg",
+      "image_path": "DEMO_DETECT_TEST/yolo_arrow_test_results\\3_target_1_original.jpg",
+      "processing_time": 9.162543058395386,
+      "original_results": [],
+      "processed_results": [
+        {
+          "bbox": [
+            [
+              37,
+              70
+            ],
+            [
+              62,
+              70
+            ],
+            [
+              62,
+              105
+            ],
+            [
+              37,
+              105
+            ]
+          ],
+          "text": "9",
+          "confidence": 0.9921526312828064,
+          "digits": "9"
+        },
+        {
+          "bbox": [
+            [
+              59,
+              68
+            ],
+            [
+              85,
+              68
+            ],
+            [
+              85,
+              103
+            ],
+            [
+              59,
+              103
+            ]
+          ],
+          "text": "5",
+          "confidence": 0.9968649744987488,
+          "digits": "5"
+        }
+      ],
+      "original_digits": [],
+      "processed_digits": [
+        {
+          "bbox": [
+            [
+              37,
+              70
+            ],
+            [
+              62,
+              70
+            ],
+            [
+              62,
+              105
+            ],
+            [
+              37,
+              105
+            ]
+          ],
+          "text": "9",
+          "confidence": 0.9921526312828064,
+          "digits": "9"
+        },
+        {
+          "bbox": [
+            [
+              59,
+              68
+            ],
+            [
+              85,
+              68
+            ],
+            [
+              85,
+              103
+            ],
+            [
+              59,
+              103
+            ]
+          ],
+          "text": "5",
+          "confidence": 0.9968649744987488,
+          "digits": "5"
+        }
+      ],
+      "best_result": {
+        "bbox": [
+          [
+            59,
+            68
+          ],
+          [
+            85,
+            68
+          ],
+          [
+            85,
+            103
+          ],
+          [
+            59,
+            103
+          ]
+        ],
+        "text": "5",
+        "confidence": 0.9968649744987488,
+        "digits": "5"
+      },
+      "best_source": "预处理图像",
+      "success": true
+    },
+    {
+      "image_name": "3_target_2_original.jpg",
+      "image_path": "DEMO_DETECT_TEST/yolo_arrow_test_results\\3_target_2_original.jpg",
+      "processing_time": 10.28314757347107,
+      "original_results": [
+        {
+          "bbox": [
+            [
+              51,
+              5
+            ],
+            [
+              102,
+              65
+            ],
+            [
+              55,
+              109
+            ],
+            [
+              4,
+              48
+            ]
+          ],
+          "text": "89",
+          "confidence": 0.7704362869262695,
+          "digits": "89"
+        }
+      ],
+      "processed_results": [
+        {
+          "bbox": [
+            [
+              7,
+              62
+            ],
+            [
+              63,
+              11
+            ],
+            [
+              109,
+              58
+            ],
+            [
+              53,
+              109
+            ]
+          ],
+          "text": "59",
+          "confidence": 0.22774198651313782,
+          "digits": "59"
+        }
+      ],
+      "original_digits": [
+        {
+          "bbox": [
+            [
+              51,
+              5
+            ],
+            [
+              102,
+              65
+            ],
+            [
+              55,
+              109
+            ],
+            [
+              4,
+              48
+            ]
+          ],
+          "text": "89",
+          "confidence": 0.7704362869262695,
+          "digits": "89"
+        }
+      ],
+      "processed_digits": [
+        {
+          "bbox": [
+            [
+              7,
+              62
+            ],
+            [
+              63,
+              11
+            ],
+            [
+              109,
+              58
+            ],
+            [
+              53,
+              109
+            ]
+          ],
+          "text": "59",
+          "confidence": 0.22774198651313782,
+          "digits": "59"
+        }
+      ],
+      "best_result": {
+        "bbox": [
+          [
+            7,
+            62
+          ],
+          [
+            63,
+            11
+          ],
+          [
+            109,
+            58
+          ],
+          [
+            53,
+            109
+          ]
+        ],
+        "text": "59",
+        "confidence": 0.22774198651313782,
+        "digits": "59"
+      },
+      "best_source": "预处理图像",
+      "success": true
+    },
+    {
+      "image_name": "3_target_3_original.jpg",
+      "image_path": "DEMO_DETECT_TEST/yolo_arrow_test_results\\3_target_3_original.jpg",
+      "processing_time": 9.19922685623169,
+      "original_results": [
+        {
+          "bbox": [
+            [
+              38,
+              28
+            ],
+            [
+              89,
+              38
+            ],
+            [
+              78,
+              78
+            ],
+            [
+              26,
+              68
+            ]
+          ],
+          "text": "00",
+          "confidence": 0.24233806133270264,
+          "digits": "00"
+        }
+      ],
+      "processed_results": [
+        {
+          "bbox": [
+            [
+              29,
+              74
+            ],
+            [
+              87,
+              77
+            ],
+            [
+              84,
+              125
+            ],
+            [
+              25,
+              122
+            ]
+          ],
+          "text": "04",
+          "confidence": 0.998644232749939,
+          "digits": "04"
+        }
+      ],
+      "original_digits": [
+        {
+          "bbox": [
+            [
+              38,
+              28
+            ],
+            [
+              89,
+              38
+            ],
+            [
+              78,
+              78
+            ],
+            [
+              26,
+              68
+            ]
+          ],
+          "text": "00",
+          "confidence": 0.24233806133270264,
+          "digits": "00"
+        }
+      ],
+      "processed_digits": [
+        {
+          "bbox": [
+            [
+              29,
+              74
+            ],
+            [
+              87,
+              77
+            ],
+            [
+              84,
+              125
+            ],
+            [
+              25,
+              122
+            ]
+          ],
+          "text": "04",
+          "confidence": 0.998644232749939,
+          "digits": "04"
+        }
+      ],
+      "best_result": {
+        "bbox": [
+          [
+            29,
+            74
+          ],
+          [
+            87,
+            77
+          ],
+          [
+            84,
+            125
+          ],
+          [
+            25,
+            122
+          ]
+        ],
+        "text": "04",
+        "confidence": 0.998644232749939,
+        "digits": "04"
+      },
+      "best_source": "预处理图像",
+      "success": true
+    },
+    {
+      "image_name": "3_target_4_original.jpg",
+      "image_path": "DEMO_DETECT_TEST/yolo_arrow_test_results\\3_target_4_original.jpg",
+      "processing_time": 9.012928485870361,
+      "original_results": [
+        {
+          "bbox": [
+            [
+              22,
+              19
+            ],
+            [
+              69,
+              31
+            ],
+            [
+              53,
+              82
+            ],
+            [
+              6,
+              71
+            ]
+          ],
+          "text": "2",
+          "confidence": 0.6878046989440918,
+          "digits": "2"
+        }
+      ],
+      "processed_results": [
+        {
+          "bbox": [
+            [
+              44,
+              22
+            ],
+            [
+              95,
+              37
+            ],
+            [
+              87,
+              98
+            ],
+            [
+              26,
+              84
+            ]
+          ],
+          "text": "L",
+          "confidence": 0.9080884456634521
+        }
+      ],
+      "original_digits": [
+        {
+          "bbox": [
+            [
+              22,
+              19
+            ],
+            [
+              69,
+              31
+            ],
+            [
+              53,
+              82
+            ],
+            [
+              6,
+              71
+            ]
+          ],
+          "text": "2",
+          "confidence": 0.6878046989440918,
+          "digits": "2"
+        }
+      ],
+      "processed_digits": [],
+      "best_result": {
+        "bbox": [
+          [
+            22,
+            19
+          ],
+          [
+            69,
+            31
+          ],
+          [
+            53,
+            82
+          ],
+          [
+            6,
+            71
+          ]
+        ],
+        "text": "2",
+        "confidence": 0.6878046989440918,
+        "digits": "2"
+      },
+      "best_source": "原始图像",
+      "success": true
+    },
+    {
+      "image_name": "3_target_5_original.jpg",
+      "image_path": "DEMO_DETECT_TEST/yolo_arrow_test_results\\3_target_5_original.jpg",
+      "processing_time": 3.7514748573303223,
+      "original_results": [],
+      "processed_results": [],
+      "original_digits": [],
+      "processed_digits": [],
+      "best_result": null,
+      "best_source": "无识别结果",
+      "success": false
+    },
+    {
+      "image_name": "4_target_1_original.jpg",
+      "image_path": "DEMO_DETECT_TEST/yolo_arrow_test_results\\4_target_1_original.jpg",
+      "processing_time": 7.632744073867798,
+      "original_results": [],
+      "processed_results": [
+        {
+          "bbox": [
+            [
+              25,
+              65
+            ],
+            [
+              75,
+              70
+            ],
+            [
+              71,
+              113
+            ],
+            [
+              22,
+              108
+            ]
+          ],
+          "text": "95",
+          "confidence": 0.9799852967262268,
+          "digits": "95"
+        }
+      ],
+      "original_digits": [],
+      "processed_digits": [
+        {
+          "bbox": [
+            [
+              25,
+              65
+            ],
+            [
+              75,
+              70
+            ],
+            [
+              71,
+              113
+            ],
+            [
+              22,
+              108
+            ]
+          ],
+          "text": "95",
+          "confidence": 0.9799852967262268,
+          "digits": "95"
+        }
+      ],
+      "best_result": {
+        "bbox": [
+          [
+            25,
+            65
+          ],
+          [
+            75,
+            70
+          ],
+          [
+            71,
+            113
+          ],
+          [
+            22,
+            108
+          ]
+        ],
+        "text": "95",
+        "confidence": 0.9799852967262268,
+        "digits": "95"
+      },
+      "best_source": "预处理图像",
+      "success": true
+    },
+    {
+      "image_name": "4_target_2_original.jpg",
+      "image_path": "DEMO_DETECT_TEST/yolo_arrow_test_results\\4_target_2_original.jpg",
+      "processing_time": 9.489577293395996,
+      "original_results": [
+        {
+          "bbox": [
+            [
+              85,
+              24
+            ],
+            [
+              140,
+              40
+            ],
+            [
+              129,
+              92
+            ],
+            [
+              74,
+              76
+            ]
+          ],
+          "text": "4",
+          "confidence": 0.49802786111831665,
+          "digits": "4"
+        }
+      ],
+      "processed_results": [
+        {
+          "bbox": [
+            [
+              85,
+              26
+            ],
+            [
+              138,
+              42
+            ],
+            [
+              127,
+              90
+            ],
+            [
+              75,
+              74
+            ]
+          ],
+          "text": "4",
+          "confidence": 0.5192268490791321,
+          "digits": "4"
+        }
+      ],
+      "original_digits": [
+        {
+          "bbox": [
+            [
+              85,
+              24
+            ],
+            [
+              140,
+              40
+            ],
+            [
+              129,
+              92
+            ],
+            [
+              74,
+              76
+            ]
+          ],
+          "text": "4",
+          "confidence": 0.49802786111831665,
+          "digits": "4"
+        }
+      ],
+      "processed_digits": [
+        {
+          "bbox": [
+            [
+              85,
+              26
+            ],
+            [
+              138,
+              42
+            ],
+            [
+              127,
+              90
+            ],
+            [
+              75,
+              74
+            ]
+          ],
+          "text": "4",
+          "confidence": 0.5192268490791321,
+          "digits": "4"
+        }
+      ],
+      "best_result": {
+        "bbox": [
+          [
+            85,
+            26
+          ],
+          [
+            138,
+            42
+          ],
+          [
+            127,
+            90
+          ],
+          [
+            75,
+            74
+          ]
+        ],
+        "text": "4",
+        "confidence": 0.5192268490791321,
+        "digits": "4"
+      },
+      "best_source": "预处理图像",
+      "success": true
+    },
+    {
+      "image_name": "4_target_3_original.jpg",
+      "image_path": "DEMO_DETECT_TEST/yolo_arrow_test_results\\4_target_3_original.jpg",
+      "processing_time": 10.714947700500488,
+      "original_results": [
+        {
+          "bbox": [
+            [
+              26,
+              41
+            ],
+            [
+              91,
+              6
+            ],
+            [
+              110,
+              56
+            ],
+            [
+              45,
+              91
+            ]
+          ],
+          "text": "63",
+          "confidence": 0.9977505803108215,
+          "digits": "63"
+        }
+      ],
+      "processed_results": [
+        {
+          "bbox": [
+            [
+              26,
+              39
+            ],
+            [
+              93,
+              6
+            ],
+            [
+              110,
+              57
+            ],
+            [
+              43,
+              90
+            ]
+          ],
+          "text": "63",
+          "confidence": 0.9809360504150391,
+          "digits": "63"
+        }
+      ],
+      "original_digits": [
+        {
+          "bbox": [
+            [
+              26,
+              41
+            ],
+            [
+              91,
+              6
+            ],
+            [
+              110,
+              56
+            ],
+            [
+              45,
+              91
+            ]
+          ],
+          "text": "63",
+          "confidence": 0.9977505803108215,
+          "digits": "63"
+        }
+      ],
+      "processed_digits": [
+        {
+          "bbox": [
+            [
+              26,
+              39
+            ],
+            [
+              93,
+              6
+            ],
+            [
+              110,
+              57
+            ],
+            [
+              43,
+              90
+            ]
+          ],
+          "text": "63",
+          "confidence": 0.9809360504150391,
+          "digits": "63"
+        }
+      ],
+      "best_result": {
+        "bbox": [
+          [
+            26,
+            39
+          ],
+          [
+            93,
+            6
+          ],
+          [
+            110,
+            57
+          ],
+          [
+            43,
+            90
+          ]
+        ],
+        "text": "63",
+        "confidence": 0.9809360504150391,
+        "digits": "63"
+      },
+      "best_source": "预处理图像",
+      "success": true
+    },
+    {
+      "image_name": "4_target_4_original.jpg",
+      "image_path": "DEMO_DETECT_TEST/yolo_arrow_test_results\\4_target_4_original.jpg",
+      "processing_time": 8.254204750061035,
+      "original_results": [
+        {
+          "bbox": [
+            [
+              8,
+              23
+            ],
+            [
+              75,
+              40
+            ],
+            [
+              52,
+              95
+            ],
+            [
+              0,
+              78
+            ]
+          ],
+          "text": "名",
+          "confidence": 0.2243916243314743
+        }
+      ],
+      "processed_results": [
+        {
+          "bbox": [
+            [
+              17,
+              19
+            ],
+            [
+              83,
+              41
+            ],
+            [
+              51,
+              100
+            ],
+            [
+              0,
+              78
+            ]
+          ],
+          "text": "公",
+          "confidence": 0.18577468395233154
+        }
+      ],
+      "original_digits": [],
+      "processed_digits": [],
+      "best_result": null,
+      "best_source": "无识别结果",
+      "success": false
+    },
+    {
+      "image_name": "4_target_5_original.jpg",
+      "image_path": "DEMO_DETECT_TEST/yolo_arrow_test_results\\4_target_5_original.jpg",
+      "processing_time": 8.677366256713867,
+      "original_results": [
+        {
+          "bbox": [
+            [
+              83,
+              37
+            ],
+            [
+              138,
+              49
+            ],
+            [
+              130,
+              101
+            ],
+            [
+              75,
+              88
+            ]
+          ],
+          "text": "4",
+          "confidence": 0.545850396156311,
+          "digits": "4"
+        }
+      ],
+      "processed_results": [
+        {
+          "bbox": [
+            [
+              83,
+              35
+            ],
+            [
+              135,
+              51
+            ],
+            [
+              125,
+              98
+            ],
+            [
+              73,
+              82
+            ]
+          ],
+          "text": "4",
+          "confidence": 0.21198740601539612,
+          "digits": "4"
+        }
+      ],
+      "original_digits": [
+        {
+          "bbox": [
+            [
+              83,
+              37
+            ],
+            [
+              138,
+              49
+            ],
+            [
+              130,
+              101
+            ],
+            [
+              75,
+              88
+            ]
+          ],
+          "text": "4",
+          "confidence": 0.545850396156311,
+          "digits": "4"
+        }
+      ],
+      "processed_digits": [
+        {
+          "bbox": [
+            [
+              83,
+              35
+            ],
+            [
+              135,
+              51
+            ],
+            [
+              125,
+              98
+            ],
+            [
+              73,
+              82
+            ]
+          ],
+          "text": "4",
+          "confidence": 0.21198740601539612,
+          "digits": "4"
+        }
+      ],
+      "best_result": {
+        "bbox": [
+          [
+            83,
+            35
+          ],
+          [
+            135,
+            51
+          ],
+          [
+            125,
+            98
+          ],
+          [
+            73,
+            82
+          ]
+        ],
+        "text": "4",
+        "confidence": 0.21198740601539612,
+        "digits": "4"
+      },
+      "best_source": "预处理图像",
+      "success": true
+    },
+    {
+      "image_name": "4_target_6_original.jpg",
+      "image_path": "DEMO_DETECT_TEST/yolo_arrow_test_results\\4_target_6_original.jpg",
+      "processing_time": 8.271535396575928,
+      "original_results": [
+        {
+          "bbox": [
+            [
+              42,
+              2
+            ],
+            [
+              101,
+              28
+            ],
+            [
+              84,
+              71
+            ],
+            [
+              26,
+              45
+            ]
+          ],
+          "text": "21",
+          "confidence": 0.9973613023757935,
+          "digits": "21"
+        }
+      ],
+      "processed_results": [
+        {
+          "bbox": [
+            [
+              47,
+              3
+            ],
+            [
+              99,
+              28
+            ],
+            [
+              83,
+              69
+            ],
+            [
+              30,
+              45
+            ]
+          ],
+          "text": "21",
+          "confidence": 0.990044355392456,
+          "digits": "21"
+        }
+      ],
+      "original_digits": [
+        {
+          "bbox": [
+            [
+              42,
+              2
+            ],
+            [
+              101,
+              28
+            ],
+            [
+              84,
+              71
+            ],
+            [
+              26,
+              45
+            ]
+          ],
+          "text": "21",
+          "confidence": 0.9973613023757935,
+          "digits": "21"
+        }
+      ],
+      "processed_digits": [
+        {
+          "bbox": [
+            [
+              47,
+              3
+            ],
+            [
+              99,
+              28
+            ],
+            [
+              83,
+              69
+            ],
+            [
+              30,
+              45
+            ]
+          ],
+          "text": "21",
+          "confidence": 0.990044355392456,
+          "digits": "21"
+        }
+      ],
+      "best_result": {
+        "bbox": [
+          [
+            47,
+            3
+          ],
+          [
+            99,
+            28
+          ],
+          [
+            83,
+            69
+          ],
+          [
+            30,
+            45
+          ]
+        ],
+        "text": "21",
+        "confidence": 0.990044355392456,
+        "digits": "21"
+      },
+      "best_source": "预处理图像",
+      "success": true
+    }
+  ]
+}

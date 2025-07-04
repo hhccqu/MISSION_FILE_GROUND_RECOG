@@ -1,0 +1,74 @@
+# Jetson Orin Nano专用依赖需求文件
+# 针对ARM64架构和CUDA环境优化
+
+# 深度学习框架
+torch>=2.0.0
+torchvision>=0.15.0
+torchaudio>=2.0.0
+tensorrt>=8.5.0
+
+# 计算机视觉
+opencv-python>=4.8.0
+opencv-contrib-python>=4.8.0
+
+# YOLO检测
+ultralytics>=8.0.0
+
+# OCR识别  
+easyocr>=1.7.0
+
+# 数据处理
+numpy>=1.24.0
+pandas>=2.0.0
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# 系统监控
+psutil>=5.9.0
+
+# MAVLink通信
+pymavlink>=2.4.0
+
+# CUDA加速库
+pycuda>=2022.1
+
+# 图像处理
+Pillow>=10.0.0
+scikit-image>=0.20.0
+
+# 数据序列化
+json5>=0.9.0
+
+# 数学计算
+scipy>=1.10.0
+
+# 进度条
+tqdm>=4.65.0
+
+# 配置管理
+pyyaml>=6.0
+
+# 日志记录
+loguru>=0.7.0
+
+# 时间处理
+python-dateutil>=2.8.0
+
+# 网络通信
+requests>=2.31.0
+
+# 多线程工具
+concurrent-futures>=3.1.1
+
+# 内存管理
+memory-profiler>=0.60.0
+
+# GPU监控
+gpustat>=1.1.0
+
+# Jetson专用工具
+jetson-stats>=4.2.0
+
+# 开发工具
+ipython>=8.12.0
+jupyter>=1.0.0 

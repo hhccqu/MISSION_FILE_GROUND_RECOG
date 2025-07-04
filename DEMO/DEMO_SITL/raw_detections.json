@@ -1,0 +1,3242 @@
+[
+  {
+    "target_id": "DT_T0000",
+    "frame_id": 1,
+    "timestamp": 1751264305.0209494,
+    "detection_box": [
+      783,
+      250,
+      858,
+      347
+    ],
+    "pixel_center": [
+      820,
+      298
+    ],
+    "confidence": 0.8341917991638184,
+    "flight_data": {
+      "timestamp": 1751264305.0209494,
+      "latitude": 39.7393,
+      "longitude": 116.4075,
+      "altitude": 100.0,
+      "pitch": 0.0,
+      "roll": 0.0,
+      "yaw": 45.0,
+      "ground_speed": 15.0,
+      "heading": 45.0
+    }
+  },
+  {
+    "target_id": "DT_T0001",
+    "frame_id": 1,
+    "timestamp": 1751264305.0209494,
+    "detection_box": [
+      460,
+      397,
+      550,
+      478
+    ],
+    "pixel_center": [
+      505,
+      437
+    ],
+    "confidence": 0.8230003714561462,
+    "flight_data": {
+      "timestamp": 1751264305.0209494,
+      "latitude": 39.7393,
+      "longitude": 116.4075,
+      "altitude": 100.0,
+      "pitch": 0.0,
+      "roll": 0.0,
+      "yaw": 45.0,
+      "ground_speed": 15.0,
+      "heading": 45.0
+    }
+  },
+  {
+    "target_id": "DT_T0002",
+    "frame_id": 1,
+    "timestamp": 1751264305.0209494,
+    "detection_box": [
+      570,
+      173,
+      630,
+      265
+    ],
+    "pixel_center": [
+      600,
+      219
+    ],
+    "confidence": 0.8136248588562012,
+    "flight_data": {
+      "timestamp": 1751264305.0209494,
+      "latitude": 39.7393,
+      "longitude": 116.4075,
+      "altitude": 100.0,
+      "pitch": 0.0,
+      "roll": 0.0,
+      "yaw": 45.0,
+      "ground_speed": 15.0,
+      "heading": 45.0
+    }
+  },
+  {
+    "target_id": "DT_T0003",
+    "frame_id": 2,
+    "timestamp": 1751264305.3449595,
+    "detection_box": [
+      782,
+      250,
+      858,
+      346
+    ],
+    "pixel_center": [
+      820,
+      298
+    ],
+    "confidence": 0.8446958065032959,
+    "flight_data": {
+      "timestamp": 1751264305.3449595,
+      "latitude": 39.739399999999996,
+      "longitude": 116.4076,
+      "altitude": 100.0,
+      "pitch": 0.0,
+      "roll": 0.0,
+      "yaw": 45.0,
+      "ground_speed": 15.0,
+      "heading": 45.0
+    }
+  },
+  {
+    "target_id": "DT_T0004",
+    "frame_id": 2,
+    "timestamp": 1751264305.3449595,
+    "detection_box": [
+      460,
+      397,
+      551,
+      478
+    ],
+    "pixel_center": [
+      505,
+      437
+    ],
+    "confidence": 0.8284810185432434,
+    "flight_data": {
+      "timestamp": 1751264305.3449595,
+      "latitude": 39.739399999999996,
+      "longitude": 116.4076,
+      "altitude": 100.0,
+      "pitch": 0.0,
+      "roll": 0.0,
+      "yaw": 45.0,
+      "ground_speed": 15.0,
+      "heading": 45.0
+    }
+  },
+  {
+    "target_id": "DT_T0005",
+    "frame_id": 2,
+    "timestamp": 1751264305.3449595,
+    "detection_box": [
+      570,
+      172,
+      631,
+      265
+    ],
+    "pixel_center": [
+      600,
+      218
+    ],
+    "confidence": 0.8195837736129761,
+    "flight_data": {
+      "timestamp": 1751264305.3449595,
+      "latitude": 39.739399999999996,
+      "longitude": 116.4076,
+      "altitude": 100.0,
+      "pitch": 0.0,
+      "roll": 0.0,
+      "yaw": 45.0,
+      "ground_speed": 15.0,
+      "heading": 45.0
+    }
+  },
+  {
+    "target_id": "DT_T0006",
+    "frame_id": 3,
+    "timestamp": 1751264305.4555576,
+    "detection_box": [
+      782,
+      250,
+      859,
+      346
+    ],
+    "pixel_center": [
+      820,
+      298
+    ],
+    "confidence": 0.8485640287399292,
+    "flight_data": {
+      "timestamp": 1751264305.4555576,
+      "latitude": 39.7395,
+      "longitude": 116.40769999999999,
+      "altitude": 100.0,
+      "pitch": 0.0,
+      "roll": 0.0,
+      "yaw": 45.0,
+      "ground_speed": 15.0,
+      "heading": 45.0
+    }
+  },
+  {
+    "target_id": "DT_T0007",
+    "frame_id": 3,
+    "timestamp": 1751264305.4555576,
+    "detection_box": [
+      460,
+      397,
+      551,
+      478
+    ],
+    "pixel_center": [
+      505,
+      437
+    ],
+    "confidence": 0.8279876112937927,
+    "flight_data": {
+      "timestamp": 1751264305.4555576,
+      "latitude": 39.7395,
+      "longitude": 116.40769999999999,
+      "altitude": 100.0,
+      "pitch": 0.0,
+      "roll": 0.0,
+      "yaw": 45.0,
+      "ground_speed": 15.0,
+      "heading": 45.0
+    }
+  },
+  {
+    "target_id": "DT_T0008",
+    "frame_id": 3,
+    "timestamp": 1751264305.4555576,
+    "detection_box": [
+      570,
+      172,
+      631,
+      265
+    ],
+    "pixel_center": [
+      600,
+      218
+    ],
+    "confidence": 0.8203179240226746,
+    "flight_data": {
+      "timestamp": 1751264305.4555576,
+      "latitude": 39.7395,
+      "longitude": 116.40769999999999,
+      "altitude": 100.0,
+      "pitch": 0.0,
+      "roll": 0.0,
+      "yaw": 45.0,
+      "ground_speed": 15.0,
+      "heading": 45.0
+    }
+  },
+  {
+    "target_id": "DT_T0009",
+    "frame_id": 4,
+    "timestamp": 1751264305.5550864,
+    "detection_box": [
+      783,
+      249,
+      859,
+      346
+    ],
+    "pixel_center": [
+      821,
+      297
+    ],
+    "confidence": 0.8541102409362793,
+    "flight_data": {
+      "timestamp": 1751264305.5550864,
+      "latitude": 39.739599999999996,
+      "longitude": 116.4078,
+      "altitude": 100.0,
+      "pitch": 0.0,
+      "roll": 0.0,
+      "yaw": 45.0,
+      "ground_speed": 15.0,
+      "heading": 45.0
+    }
+  },
+  {
+    "target_id": "DT_T0010",
+    "frame_id": 4,
+    "timestamp": 1751264305.5550864,
+    "detection_box": [
+      460,
+      396,
+      552,
+      478
+    ],
+    "pixel_center": [
+      506,
+      437
+    ],
+    "confidence": 0.8296060562133789,
+    "flight_data": {
+      "timestamp": 1751264305.5550864,
+      "latitude": 39.739599999999996,
+      "longitude": 116.4078,
+      "altitude": 100.0,
+      "pitch": 0.0,
+      "roll": 0.0,
+      "yaw": 45.0,
+      "ground_speed": 15.0,
+      "heading": 45.0
+    }
+  },
+  {
+    "target_id": "DT_T0011",
+    "frame_id": 4,
+    "timestamp": 1751264305.5550864,
+    "detection_box": [
+      571,
+      172,
+      631,
+      265
+    ],
+    "pixel_center": [
+      601,
+      218
+    ],
+    "confidence": 0.8223422765731812,
+    "flight_data": {
+      "timestamp": 1751264305.5550864,
+      "latitude": 39.739599999999996,
+      "longitude": 116.4078,
+      "altitude": 100.0,
+      "pitch": 0.0,
+      "roll": 0.0,
+      "yaw": 45.0,
+      "ground_speed": 15.0,
+      "heading": 45.0
+    }
+  },
+  {
+    "target_id": "DT_T0012",
+    "frame_id": 5,
+    "timestamp": 1751264305.648317,
+    "detection_box": [
+      783,
+      249,
+      859,
+      346
+    ],
+    "pixel_center": [
+      821,
+      297
+    ],
+    "confidence": 0.8559533953666687,
+    "flight_data": {
+      "timestamp": 1751264305.648317,
+      "latitude": 39.7397,
+      "longitude": 116.4079,
+      "altitude": 100.0,
+      "pitch": 0.0,
+      "roll": 0.0,
+      "yaw": 45.0,
+      "ground_speed": 15.0,
+      "heading": 45.0
+    }
+  },
+  {
+    "target_id": "DT_T0013",
+    "frame_id": 5,
+    "timestamp": 1751264305.648317,
+    "detection_box": [
+      460,
+      396,
+      552,
+      478
+    ],
+    "pixel_center": [
+      506,
+      437
+    ],
+    "confidence": 0.8292651176452637,
+    "flight_data": {
+      "timestamp": 1751264305.648317,
+      "latitude": 39.7397,
+      "longitude": 116.4079,
+      "altitude": 100.0,
+      "pitch": 0.0,
+      "roll": 0.0,
+      "yaw": 45.0,
+      "ground_speed": 15.0,
+      "heading": 45.0
+    }
+  },
+  {
+    "target_id": "DT_T0014",
+    "frame_id": 5,
+    "timestamp": 1751264305.648317,
+    "detection_box": [
+      571,
+      172,
+      631,
+      264
+    ],
+    "pixel_center": [
+      601,
+      218
+    ],
+    "confidence": 0.8223897218704224,
+    "flight_data": {
+      "timestamp": 1751264305.648317,
+      "latitude": 39.7397,
+      "longitude": 116.4079,
+      "altitude": 100.0,
+      "pitch": 0.0,
+      "roll": 0.0,
+      "yaw": 45.0,
+      "ground_speed": 15.0,
+      "heading": 45.0
+    }
+  },
+  {
+    "target_id": "DT_T0015",
+    "frame_id": 6,
+    "timestamp": 1751264305.7461555,
+    "detection_box": [
+      783,
+      249,
+      860,
+      346
+    ],
+    "pixel_center": [
+      821,
+      297
+    ],
+    "confidence": 0.8587781190872192,
+    "flight_data": {
+      "timestamp": 1751264305.7461555,
+      "latitude": 39.739799999999995,
+      "longitude": 116.408,
+      "altitude": 100.0,
+      "pitch": 0.0,
+      "roll": 0.0,
+      "yaw": 45.0,
+      "ground_speed": 15.0,
+      "heading": 45.0
+    }
+  },
+  {
+    "target_id": "DT_T0016",
+    "frame_id": 6,
+    "timestamp": 1751264305.7461555,
+    "detection_box": [
+      460,
+      396,
+      553,
+      478
+    ],
+    "pixel_center": [
+      506,
+      437
+    ],
+    "confidence": 0.8279367685317993,
+    "flight_data": {
+      "timestamp": 1751264305.7461555,
+      "latitude": 39.739799999999995,
+      "longitude": 116.408,
+      "altitude": 100.0,
+      "pitch": 0.0,
+      "roll": 0.0,
+      "yaw": 45.0,
+      "ground_speed": 15.0,
+      "heading": 45.0
+    }
+  },
+  {
+    "target_id": "DT_T0017",
+    "frame_id": 6,
+    "timestamp": 1751264305.7461555,
+    "detection_box": [
+      571,
+      172,
+      632,
+      264
+    ],
+    "pixel_center": [
+      601,
+      218
+    ],
+    "confidence": 0.8240503072738647,
+    "flight_data": {
+      "timestamp": 1751264305.7461555,
+      "latitude": 39.739799999999995,
+      "longitude": 116.408,
+      "altitude": 100.0,
+      "pitch": 0.0,
+      "roll": 0.0,
+      "yaw": 45.0,
+      "ground_speed": 15.0,
+      "heading": 45.0
+    }
+  },
+  {
+    "target_id": "DT_T0018",
+    "frame_id": 7,
+    "timestamp": 1751264305.843638,
+    "detection_box": [
+      783,
+      249,
+      860,
+      345
+    ],
+    "pixel_center": [
+      821,
+      297
+    ],
+    "confidence": 0.8607520461082458,
+    "flight_data": {
+      "timestamp": 1751264305.843638,
+      "latitude": 39.7399,
+      "longitude": 116.40809999999999,
+      "altitude": 100.0,
+      "pitch": 0.0,
+      "roll": 0.0,
+      "yaw": 45.0,
+      "ground_speed": 15.0,
+      "heading": 45.0
+    }
+  },
+  {
+    "target_id": "DT_T0019",
+    "frame_id": 7,
+    "timestamp": 1751264305.843638,
+    "detection_box": [
+      460,
+      396,
+      553,
+      478
+    ],
+    "pixel_center": [
+      506,
+      437
+    ],
+    "confidence": 0.8285130262374878,
+    "flight_data": {
+      "timestamp": 1751264305.843638,
+      "latitude": 39.7399,
+      "longitude": 116.40809999999999,
+      "altitude": 100.0,
+      "pitch": 0.0,
+      "roll": 0.0,
+      "yaw": 45.0,
+      "ground_speed": 15.0,
+      "heading": 45.0
+    }
+  },
+  {
+    "target_id": "DT_T0020",
+    "frame_id": 7,
+    "timestamp": 1751264305.843638,
+    "detection_box": [
+      572,
+      172,
+      632,
+      264
+    ],
+    "pixel_center": [
+      602,
+      218
+    ],
+    "confidence": 0.8240125775337219,
+    "flight_data": {
+      "timestamp": 1751264305.843638,
+      "latitude": 39.7399,
+      "longitude": 116.40809999999999,
+      "altitude": 100.0,
+      "pitch": 0.0,
+      "roll": 0.0,
+      "yaw": 45.0,
+      "ground_speed": 15.0,
+      "heading": 45.0
+    }
+  },
+  {
+    "target_id": "DT_T0021",
+    "frame_id": 8,
+    "timestamp": 1751264305.927946,
+    "detection_box": [
+      783,
+      249,
+      861,
+      345
+    ],
+    "pixel_center": [
+      822,
+      297
+    ],
+    "confidence": 0.8644700050354004,
+    "flight_data": {
+      "timestamp": 1751264305.927946,
+      "latitude": 39.739999999999995,
+      "longitude": 116.4082,
+      "altitude": 100.0,
+      "pitch": 0.0,
+      "roll": 0.0,
+      "yaw": 45.0,
+      "ground_speed": 15.0,
+      "heading": 45.0
+    }
+  },
+  {
+    "target_id": "DT_T0022",
+    "frame_id": 8,
+    "timestamp": 1751264305.927946,
+    "detection_box": [
+      460,
+      396,
+      553,
+      478
+    ],
+    "pixel_center": [
+      506,
+      437
+    ],
+    "confidence": 0.8276283144950867,
+    "flight_data": {
+      "timestamp": 1751264305.927946,
+      "latitude": 39.739999999999995,
+      "longitude": 116.4082,
+      "altitude": 100.0,
+      "pitch": 0.0,
+      "roll": 0.0,
+      "yaw": 45.0,
+      "ground_speed": 15.0,
+      "heading": 45.0
+    }
+  },
+  {
+    "target_id": "DT_T0023",
+    "frame_id": 8,
+    "timestamp": 1751264305.927946,
+    "detection_box": [
+      572,
+      172,
+      632,
+      264
+    ],
+    "pixel_center": [
+      602,
+      218
+    ],
+    "confidence": 0.824317216873169,
+    "flight_data": {
+      "timestamp": 1751264305.927946,
+      "latitude": 39.739999999999995,
+      "longitude": 116.4082,
+      "altitude": 100.0,
+      "pitch": 0.0,
+      "roll": 0.0,
+      "yaw": 45.0,
+      "ground_speed": 15.0,
+      "heading": 45.0
+    }
+  },
+  {
+    "target_id": "DT_T0024",
+    "frame_id": 9,
+    "timestamp": 1751264306.025825,
+    "detection_box": [
+      783,
+      249,
+      861,
+      345
+    ],
+    "pixel_center": [
+      822,
+      297
+    ],
+    "confidence": 0.8647838830947876,
+    "flight_data": {
+      "timestamp": 1751264306.025825,
+      "latitude": 39.7401,
+      "longitude": 116.4083,
+      "altitude": 100.0,
+      "pitch": 0.0,
+      "roll": 0.0,
+      "yaw": 45.0,
+      "ground_speed": 15.0,
+      "heading": 45.0
+    }
+  },
+  {
+    "target_id": "DT_T0025",
+    "frame_id": 9,
+    "timestamp": 1751264306.025825,
+    "detection_box": [
+      460,
+      396,
+      553,
+      478
+    ],
+    "pixel_center": [
+      506,
+      437
+    ],
+    "confidence": 0.8293554186820984,
+    "flight_data": {
+      "timestamp": 1751264306.025825,
+      "latitude": 39.7401,
+      "longitude": 116.4083,
+      "altitude": 100.0,
+      "pitch": 0.0,
+      "roll": 0.0,
+      "yaw": 45.0,
+      "ground_speed": 15.0,
+      "heading": 45.0
+    }
+  },
+  {
+    "target_id": "DT_T0026",
+    "frame_id": 9,
+    "timestamp": 1751264306.025825,
+    "detection_box": [
+      572,
+      172,
+      632,
+      264
+    ],
+    "pixel_center": [
+      602,
+      218
+    ],
+    "confidence": 0.8219246864318848,
+    "flight_data": {
+      "timestamp": 1751264306.025825,
+      "latitude": 39.7401,
+      "longitude": 116.4083,
+      "altitude": 100.0,
+      "pitch": 0.0,
+      "roll": 0.0,
+      "yaw": 45.0,
+      "ground_speed": 15.0,
+      "heading": 45.0
+    }
+  },
+  {
+    "target_id": "DT_T0027",
+    "frame_id": 10,
+    "timestamp": 1751264306.1218889,
+    "detection_box": [
+      784,
+      249,
+      861,
+      345
+    ],
+    "pixel_center": [
+      822,
+      297
+    ],
+    "confidence": 0.8672632575035095,
+    "flight_data": {
+      "timestamp": 1751264306.1218889,
+      "latitude": 39.740199999999994,
+      "longitude": 116.4084,
+      "altitude": 100.0,
+      "pitch": 0.0,
+      "roll": 0.0,
+      "yaw": 45.0,
+      "ground_speed": 15.0,
+      "heading": 45.0
+    }
+  },
+  {
+    "target_id": "DT_T0028",
+    "frame_id": 10,
+    "timestamp": 1751264306.1218889,
+    "detection_box": [
+      460,
+      395,
+      553,
+      478
+    ],
+    "pixel_center": [
+      506,
+      436
+    ],
+    "confidence": 0.8274675607681274,
+    "flight_data": {
+      "timestamp": 1751264306.1218889,
+      "latitude": 39.740199999999994,
+      "longitude": 116.4084,
+      "altitude": 100.0,
+      "pitch": 0.0,
+      "roll": 0.0,
+      "yaw": 45.0,
+      "ground_speed": 15.0,
+      "heading": 45.0
+    }
+  },
+  {
+    "target_id": "DT_T0029",
+    "frame_id": 10,
+    "timestamp": 1751264306.1218889,
+    "detection_box": [
+      573,
+      172,
+      632,
+      264
+    ],
+    "pixel_center": [
+      602,
+      218
+    ],
+    "confidence": 0.8247354626655579,
+    "flight_data": {
+      "timestamp": 1751264306.1218889,
+      "latitude": 39.740199999999994,
+      "longitude": 116.4084,
+      "altitude": 100.0,
+      "pitch": 0.0,
+      "roll": 0.0,
+      "yaw": 45.0,
+      "ground_speed": 15.0,
+      "heading": 45.0
+    }
+  },
+  {
+    "target_id": "DT_T0030",
+    "frame_id": 11,
+    "timestamp": 1751264306.2139075,
+    "detection_box": [
+      784,
+      249,
+      861,
+      345
+    ],
+    "pixel_center": [
+      822,
+      297
+    ],
+    "confidence": 0.8675634264945984,
+    "flight_data": {
+      "timestamp": 1751264306.2139075,
+      "latitude": 39.7403,
+      "longitude": 116.40849999999999,
+      "altitude": 100.0,
+      "pitch": 0.0,
+      "roll": 0.0,
+      "yaw": 45.0,
+      "ground_speed": 15.0,
+      "heading": 45.0
+    }
+  },
+  {
+    "target_id": "DT_T0031",
+    "frame_id": 11,
+    "timestamp": 1751264306.2139075,
+    "detection_box": [
+      460,
+      395,
+      553,
+      478
+    ],
+    "pixel_center": [
+      506,
+      436
+    ],
+    "confidence": 0.8274169564247131,
+    "flight_data": {
+      "timestamp": 1751264306.2139075,
+      "latitude": 39.7403,
+      "longitude": 116.40849999999999,
+      "altitude": 100.0,
+      "pitch": 0.0,
+      "roll": 0.0,
+      "yaw": 45.0,
+      "ground_speed": 15.0,
+      "heading": 45.0
+    }
+  },
+  {
+    "target_id": "DT_T0032",
+    "frame_id": 11,
+    "timestamp": 1751264306.2139075,
+    "detection_box": [
+      573,
+      172,
+      632,
+      264
+    ],
+    "pixel_center": [
+      602,
+      218
+    ],
+    "confidence": 0.8254546523094177,
+    "flight_data": {
+      "timestamp": 1751264306.2139075,
+      "latitude": 39.7403,
+      "longitude": 116.40849999999999,
+      "altitude": 100.0,
+      "pitch": 0.0,
+      "roll": 0.0,
+      "yaw": 45.0,
+      "ground_speed": 15.0,
+      "heading": 45.0
+    }
+  },
+  {
+    "target_id": "DT_T0033",
+    "frame_id": 12,
+    "timestamp": 1751264306.2894108,
+    "detection_box": [
+      784,
+      248,
+      862,
+      345
+    ],
+    "pixel_center": [
+      823,
+      296
+    ],
+    "confidence": 0.8683226108551025,
+    "flight_data": {
+      "timestamp": 1751264306.2894108,
+      "latitude": 39.740399999999994,
+      "longitude": 116.40859999999999,
+      "altitude": 100.0,
+      "pitch": 0.0,
+      "roll": 0.0,
+      "yaw": 45.0,
+      "ground_speed": 15.0,
+      "heading": 45.0
+    }
+  },
+  {
+    "target_id": "DT_T0034",
+    "frame_id": 12,
+    "timestamp": 1751264306.2894108,
+    "detection_box": [
+      460,
+      395,
+      554,
+      478
+    ],
+    "pixel_center": [
+      507,
+      436
+    ],
+    "confidence": 0.8290513157844543,
+    "flight_data": {
+      "timestamp": 1751264306.2894108,
+      "latitude": 39.740399999999994,
+      "longitude": 116.40859999999999,
+      "altitude": 100.0,
+      "pitch": 0.0,
+      "roll": 0.0,
+      "yaw": 45.0,
+      "ground_speed": 15.0,
+      "heading": 45.0
+    }
+  },
+  {
+    "target_id": "DT_T0035",
+    "frame_id": 12,
+    "timestamp": 1751264306.2894108,
+    "detection_box": [
+      573,
+      172,
+      633,
+      264
+    ],
+    "pixel_center": [
+      603,
+      218
+    ],
+    "confidence": 0.8264856934547424,
+    "flight_data": {
+      "timestamp": 1751264306.2894108,
+      "latitude": 39.740399999999994,
+      "longitude": 116.40859999999999,
+      "altitude": 100.0,
+      "pitch": 0.0,
+      "roll": 0.0,
+      "yaw": 45.0,
+      "ground_speed": 15.0,
+      "heading": 45.0
+    }
+  },
+  {
+    "target_id": "DT_T0036",
+    "frame_id": 13,
+    "timestamp": 1751264306.388496,
+    "detection_box": [
+      784,
+      249,
+      862,
+      345
+    ],
+    "pixel_center": [
+      823,
+      297
+    ],
+    "confidence": 0.8694095015525818,
+    "flight_data": {
+      "timestamp": 1751264306.388496,
+      "latitude": 39.7405,
+      "longitude": 116.4087,
+      "altitude": 100.0,
+      "pitch": 0.0,
+      "roll": 0.0,
+      "yaw": 45.0,
+      "ground_speed": 15.0,
+      "heading": 45.0
+    }
+  },
+  {
+    "target_id": "DT_T0037",
+    "frame_id": 13,
+    "timestamp": 1751264306.388496,
+    "detection_box": [
+      460,
+      395,
+      554,
+      478
+    ],
+    "pixel_center": [
+      507,
+      436
+    ],
+    "confidence": 0.8280541300773621,
+    "flight_data": {
+      "timestamp": 1751264306.388496,
+      "latitude": 39.7405,
+      "longitude": 116.4087,
+      "altitude": 100.0,
+      "pitch": 0.0,
+      "roll": 0.0,
+      "yaw": 45.0,
+      "ground_speed": 15.0,
+      "heading": 45.0
+    }
+  },
+  {
+    "target_id": "DT_T0038",
+    "frame_id": 13,
+    "timestamp": 1751264306.388496,
+    "detection_box": [
+      573,
+      172,
+      633,
+      264
+    ],
+    "pixel_center": [
+      603,
+      218
+    ],
+    "confidence": 0.826513409614563,
+    "flight_data": {
+      "timestamp": 1751264306.388496,
+      "latitude": 39.7405,
+      "longitude": 116.4087,
+      "altitude": 100.0,
+      "pitch": 0.0,
+      "roll": 0.0,
+      "yaw": 45.0,
+      "ground_speed": 15.0,
+      "heading": 45.0
+    }
+  },
+  {
+    "target_id": "DT_T0039",
+    "frame_id": 14,
+    "timestamp": 1751264306.503433,
+    "detection_box": [
+      784,
+      248,
+      862,
+      345
+    ],
+    "pixel_center": [
+      823,
+      296
+    ],
+    "confidence": 0.8693025708198547,
+    "flight_data": {
+      "timestamp": 1751264306.503433,
+      "latitude": 39.74059999999999,
+      "longitude": 116.4088,
+      "altitude": 100.0,
+      "pitch": 0.0,
+      "roll": 0.0,
+      "yaw": 45.0,
+      "ground_speed": 15.0,
+      "heading": 45.0
+    }
+  },
+  {
+    "target_id": "DT_T0040",
+    "frame_id": 14,
+    "timestamp": 1751264306.503433,
+    "detection_box": [
+      461,
+      395,
+      554,
+      478
+    ],
+    "pixel_center": [
+      507,
+      436
+    ],
+    "confidence": 0.8309267163276672,
+    "flight_data": {
+      "timestamp": 1751264306.503433,
+      "latitude": 39.74059999999999,
+      "longitude": 116.4088,
+      "altitude": 100.0,
+      "pitch": 0.0,
+      "roll": 0.0,
+      "yaw": 45.0,
+      "ground_speed": 15.0,
+      "heading": 45.0
+    }
+  },
+  {
+    "target_id": "DT_T0041",
+    "frame_id": 14,
+    "timestamp": 1751264306.503433,
+    "detection_box": [
+      573,
+      171,
+      633,
+      264
+    ],
+    "pixel_center": [
+      603,
+      217
+    ],
+    "confidence": 0.8244225978851318,
+    "flight_data": {
+      "timestamp": 1751264306.503433,
+      "latitude": 39.74059999999999,
+      "longitude": 116.4088,
+      "altitude": 100.0,
+      "pitch": 0.0,
+      "roll": 0.0,
+      "yaw": 45.0,
+      "ground_speed": 15.0,
+      "heading": 45.0
+    }
+  },
+  {
+    "target_id": "DT_T0042",
+    "frame_id": 15,
+    "timestamp": 1751264306.5874894,
+    "detection_box": [
+      784,
+      248,
+      862,
+      345
+    ],
+    "pixel_center": [
+      823,
+      296
+    ],
+    "confidence": 0.8686345815658569,
+    "flight_data": {
+      "timestamp": 1751264306.5874894,
+      "latitude": 39.7407,
+      "longitude": 116.40889999999999,
+      "altitude": 100.0,
+      "pitch": 0.0,
+      "roll": 0.0,
+      "yaw": 45.0,
+      "ground_speed": 15.0,
+      "heading": 45.0
+    }
+  },
+  {
+    "target_id": "DT_T0043",
+    "frame_id": 15,
+    "timestamp": 1751264306.5874894,
+    "detection_box": [
+      461,
+      395,
+      554,
+      478
+    ],
+    "pixel_center": [
+      507,
+      436
+    ],
+    "confidence": 0.8313761949539185,
+    "flight_data": {
+      "timestamp": 1751264306.5874894,
+      "latitude": 39.7407,
+      "longitude": 116.40889999999999,
+      "altitude": 100.0,
+      "pitch": 0.0,
+      "roll": 0.0,
+      "yaw": 45.0,
+      "ground_speed": 15.0,
+      "heading": 45.0
+    }
+  },
+  {
+    "target_id": "DT_T0044",
+    "frame_id": 15,
+    "timestamp": 1751264306.5874894,
+    "detection_box": [
+      573,
+      171,
+      633,
+      264
+    ],
+    "pixel_center": [
+      603,
+      217
+    ],
+    "confidence": 0.823441207408905,
+    "flight_data": {
+      "timestamp": 1751264306.5874894,
+      "latitude": 39.7407,
+      "longitude": 116.40889999999999,
+      "altitude": 100.0,
+      "pitch": 0.0,
+      "roll": 0.0,
+      "yaw": 45.0,
+      "ground_speed": 15.0,
+      "heading": 45.0
+    }
+  },
+  {
+    "target_id": "DT_T0045",
+    "frame_id": 16,
+    "timestamp": 1751264306.6731045,
+    "detection_box": [
+      785,
+      248,
+      862,
+      345
+    ],
+    "pixel_center": [
+      823,
+      296
+    ],
+    "confidence": 0.8696164488792419,
+    "flight_data": {
+      "timestamp": 1751264306.6731045,
+      "latitude": 39.7408,
+      "longitude": 116.40899999999999,
+      "altitude": 100.0,
+      "pitch": 0.0,
+      "roll": 0.0,
+      "yaw": 45.0,
+      "ground_speed": 15.0,
+      "heading": 45.0
+    }
+  },
+  {
+    "target_id": "DT_T0046",
+    "frame_id": 16,
+    "timestamp": 1751264306.6731045,
+    "detection_box": [
+      461,
+      395,
+      554,
+      478
+    ],
+    "pixel_center": [
+      507,
+      436
+    ],
+    "confidence": 0.8312207460403442,
+    "flight_data": {
+      "timestamp": 1751264306.6731045,
+      "latitude": 39.7408,
+      "longitude": 116.40899999999999,
+      "altitude": 100.0,
+      "pitch": 0.0,
+      "roll": 0.0,
+      "yaw": 45.0,
+      "ground_speed": 15.0,
+      "heading": 45.0
+    }
+  },
+  {
+    "target_id": "DT_T0047",
+    "frame_id": 16,
+    "timestamp": 1751264306.6731045,
+    "detection_box": [
+      573,
+      171,
+      633,
+      264
+    ],
+    "pixel_center": [
+      603,
+      217
+    ],
+    "confidence": 0.823631227016449,
+    "flight_data": {
+      "timestamp": 1751264306.6731045,
+      "latitude": 39.7408,
+      "longitude": 116.40899999999999,
+      "altitude": 100.0,
+      "pitch": 0.0,
+      "roll": 0.0,
+      "yaw": 45.0,
+      "ground_speed": 15.0,
+      "heading": 45.0
+    }
+  },
+  {
+    "target_id": "DT_T0048",
+    "frame_id": 17,
+    "timestamp": 1751264306.7719207,
+    "detection_box": [
+      786,
+      248,
+      862,
+      345
+    ],
+    "pixel_center": [
+      824,
+      296
+    ],
+    "confidence": 0.870479941368103,
+    "flight_data": {
+      "timestamp": 1751264306.7719207,
+      "latitude": 39.740899999999996,
+      "longitude": 116.4091,
+      "altitude": 100.0,
+      "pitch": 0.0,
+      "roll": 0.0,
+      "yaw": 45.0,
+      "ground_speed": 15.0,
+      "heading": 45.0
+    }
+  },
+  {
+    "target_id": "DT_T0049",
+    "frame_id": 17,
+    "timestamp": 1751264306.7719207,
+    "detection_box": [
+      461,
+      395,
+      554,
+      478
+    ],
+    "pixel_center": [
+      507,
+      436
+    ],
+    "confidence": 0.8307182788848877,
+    "flight_data": {
+      "timestamp": 1751264306.7719207,
+      "latitude": 39.740899999999996,
+      "longitude": 116.4091,
+      "altitude": 100.0,
+      "pitch": 0.0,
+      "roll": 0.0,
+      "yaw": 45.0,
+      "ground_speed": 15.0,
+      "heading": 45.0
+    }
+  },
+  {
+    "target_id": "DT_T0050",
+    "frame_id": 17,
+    "timestamp": 1751264306.7719207,
+    "detection_box": [
+      574,
+      171,
+      633,
+      264
+    ],
+    "pixel_center": [
+      603,
+      217
+    ],
+    "confidence": 0.8244168758392334,
+    "flight_data": {
+      "timestamp": 1751264306.7719207,
+      "latitude": 39.740899999999996,
+      "longitude": 116.4091,
+      "altitude": 100.0,
+      "pitch": 0.0,
+      "roll": 0.0,
+      "yaw": 45.0,
+      "ground_speed": 15.0,
+      "heading": 45.0
+    }
+  },
+  {
+    "target_id": "DT_T0051",
+    "frame_id": 18,
+    "timestamp": 1751264306.882465,
+    "detection_box": [
+      787,
+      248,
+      863,
+      345
+    ],
+    "pixel_center": [
+      825,
+      296
+    ],
+    "confidence": 0.8709831833839417,
+    "flight_data": {
+      "timestamp": 1751264306.882465,
+      "latitude": 39.741,
+      "longitude": 116.4092,
+      "altitude": 100.0,
+      "pitch": 0.0,
+      "roll": 0.0,
+      "yaw": 45.0,
+      "ground_speed": 15.0,
+      "heading": 45.0
+    }
+  },
+  {
+    "target_id": "DT_T0052",
+    "frame_id": 18,
+    "timestamp": 1751264306.882465,
+    "detection_box": [
+      461,
+      395,
+      554,
+      478
+    ],
+    "pixel_center": [
+      507,
+      436
+    ],
+    "confidence": 0.8293375968933105,
+    "flight_data": {
+      "timestamp": 1751264306.882465,
+      "latitude": 39.741,
+      "longitude": 116.4092,
+      "altitude": 100.0,
+      "pitch": 0.0,
+      "roll": 0.0,
+      "yaw": 45.0,
+      "ground_speed": 15.0,
+      "heading": 45.0
+    }
+  },
+  {
+    "target_id": "DT_T0053",
+    "frame_id": 18,
+    "timestamp": 1751264306.882465,
+    "detection_box": [
+      574,
+      171,
+      633,
+      264
+    ],
+    "pixel_center": [
+      603,
+      217
+    ],
+    "confidence": 0.8246436715126038,
+    "flight_data": {
+      "timestamp": 1751264306.882465,
+      "latitude": 39.741,
+      "longitude": 116.4092,
+      "altitude": 100.0,
+      "pitch": 0.0,
+      "roll": 0.0,
+      "yaw": 45.0,
+      "ground_speed": 15.0,
+      "heading": 45.0
+    }
+  },
+  {
+    "target_id": "DT_T0054",
+    "frame_id": 19,
+    "timestamp": 1751264306.970523,
+    "detection_box": [
+      787,
+      248,
+      863,
+      345
+    ],
+    "pixel_center": [
+      825,
+      296
+    ],
+    "confidence": 0.8710358142852783,
+    "flight_data": {
+      "timestamp": 1751264306.970523,
+      "latitude": 39.741099999999996,
+      "longitude": 116.4093,
+      "altitude": 100.0,
+      "pitch": 0.0,
+      "roll": 0.0,
+      "yaw": 45.0,
+      "ground_speed": 15.0,
+      "heading": 45.0
+    }
+  },
+  {
+    "target_id": "DT_T0055",
+    "frame_id": 19,
+    "timestamp": 1751264306.970523,
+    "detection_box": [
+      461,
+      395,
+      554,
+      478
+    ],
+    "pixel_center": [
+      507,
+      436
+    ],
+    "confidence": 0.8293465375900269,
+    "flight_data": {
+      "timestamp": 1751264306.970523,
+      "latitude": 39.741099999999996,
+      "longitude": 116.4093,
+      "altitude": 100.0,
+      "pitch": 0.0,
+      "roll": 0.0,
+      "yaw": 45.0,
+      "ground_speed": 15.0,
+      "heading": 45.0
+    }
+  },
+  {
+    "target_id": "DT_T0056",
+    "frame_id": 19,
+    "timestamp": 1751264306.970523,
+    "detection_box": [
+      574,
+      171,
+      633,
+      264
+    ],
+    "pixel_center": [
+      603,
+      217
+    ],
+    "confidence": 0.8228698968887329,
+    "flight_data": {
+      "timestamp": 1751264306.970523,
+      "latitude": 39.741099999999996,
+      "longitude": 116.4093,
+      "altitude": 100.0,
+      "pitch": 0.0,
+      "roll": 0.0,
+      "yaw": 45.0,
+      "ground_speed": 15.0,
+      "heading": 45.0
+    }
+  },
+  {
+    "target_id": "DT_T0057",
+    "frame_id": 20,
+    "timestamp": 1751264307.0678954,
+    "detection_box": [
+      787,
+      248,
+      863,
+      345
+    ],
+    "pixel_center": [
+      825,
+      296
+    ],
+    "confidence": 0.8702942728996277,
+    "flight_data": {
+      "timestamp": 1751264307.0678954,
+      "latitude": 39.7412,
+      "longitude": 116.40939999999999,
+      "altitude": 100.0,
+      "pitch": 0.0,
+      "roll": 0.0,
+      "yaw": 45.0,
+      "ground_speed": 15.0,
+      "heading": 45.0
+    }
+  },
+  {
+    "target_id": "DT_T0058",
+    "frame_id": 20,
+    "timestamp": 1751264307.0678954,
+    "detection_box": [
+      461,
+      395,
+      554,
+      478
+    ],
+    "pixel_center": [
+      507,
+      436
+    ],
+    "confidence": 0.8298927545547485,
+    "flight_data": {
+      "timestamp": 1751264307.0678954,
+      "latitude": 39.7412,
+      "longitude": 116.40939999999999,
+      "altitude": 100.0,
+      "pitch": 0.0,
+      "roll": 0.0,
+      "yaw": 45.0,
+      "ground_speed": 15.0,
+      "heading": 45.0
+    }
+  },
+  {
+    "target_id": "DT_T0059",
+    "frame_id": 20,
+    "timestamp": 1751264307.0678954,
+    "detection_box": [
+      574,
+      171,
+      633,
+      264
+    ],
+    "pixel_center": [
+      603,
+      217
+    ],
+    "confidence": 0.8227410912513733,
+    "flight_data": {
+      "timestamp": 1751264307.0678954,
+      "latitude": 39.7412,
+      "longitude": 116.40939999999999,
+      "altitude": 100.0,
+      "pitch": 0.0,
+      "roll": 0.0,
+      "yaw": 45.0,
+      "ground_speed": 15.0,
+      "heading": 45.0
+    }
+  },
+  {
+    "target_id": "DT_T0060",
+    "frame_id": 21,
+    "timestamp": 1751264307.1683872,
+    "detection_box": [
+      787,
+      248,
+      863,
+      345
+    ],
+    "pixel_center": [
+      825,
+      296
+    ],
+    "confidence": 0.8704174160957336,
+    "flight_data": {
+      "timestamp": 1751264307.1683872,
+      "latitude": 39.741299999999995,
+      "longitude": 116.4095,
+      "altitude": 100.0,
+      "pitch": 0.0,
+      "roll": 0.0,
+      "yaw": 45.0,
+      "ground_speed": 15.0,
+      "heading": 45.0
+    }
+  },
+  {
+    "target_id": "DT_T0061",
+    "frame_id": 21,
+    "timestamp": 1751264307.1683872,
+    "detection_box": [
+      461,
+      395,
+      554,
+      478
+    ],
+    "pixel_center": [
+      507,
+      436
+    ],
+    "confidence": 0.8300994038581848,
+    "flight_data": {
+      "timestamp": 1751264307.1683872,
+      "latitude": 39.741299999999995,
+      "longitude": 116.4095,
+      "altitude": 100.0,
+      "pitch": 0.0,
+      "roll": 0.0,
+      "yaw": 45.0,
+      "ground_speed": 15.0,
+      "heading": 45.0
+    }
+  },
+  {
+    "target_id": "DT_T0062",
+    "frame_id": 21,
+    "timestamp": 1751264307.1683872,
+    "detection_box": [
+      574,
+      171,
+      634,
+      264
+    ],
+    "pixel_center": [
+      604,
+      217
+    ],
+    "confidence": 0.823712170124054,
+    "flight_data": {
+      "timestamp": 1751264307.1683872,
+      "latitude": 39.741299999999995,
+      "longitude": 116.4095,
+      "altitude": 100.0,
+      "pitch": 0.0,
+      "roll": 0.0,
+      "yaw": 45.0,
+      "ground_speed": 15.0,
+      "heading": 45.0
+    }
+  },
+  {
+    "target_id": "DT_T0063",
+    "frame_id": 22,
+    "timestamp": 1751264307.257636,
+    "detection_box": [
+      786,
+      248,
+      863,
+      345
+    ],
+    "pixel_center": [
+      824,
+      296
+    ],
+    "confidence": 0.8694866299629211,
+    "flight_data": {
+      "timestamp": 1751264307.257636,
+      "latitude": 39.7414,
+      "longitude": 116.4096,
+      "altitude": 100.0,
+      "pitch": 0.0,
+      "roll": 0.0,
+      "yaw": 45.0,
+      "ground_speed": 15.0,
+      "heading": 45.0
+    }
+  },
+  {
+    "target_id": "DT_T0064",
+    "frame_id": 22,
+    "timestamp": 1751264307.257636,
+    "detection_box": [
+      461,
+      395,
+      554,
+      478
+    ],
+    "pixel_center": [
+      507,
+      436
+    ],
+    "confidence": 0.8304184079170227,
+    "flight_data": {
+      "timestamp": 1751264307.257636,
+      "latitude": 39.7414,
+      "longitude": 116.4096,
+      "altitude": 100.0,
+      "pitch": 0.0,
+      "roll": 0.0,
+      "yaw": 45.0,
+      "ground_speed": 15.0,
+      "heading": 45.0
+    }
+  },
+  {
+    "target_id": "DT_T0065",
+    "frame_id": 22,
+    "timestamp": 1751264307.257636,
+    "detection_box": [
+      574,
+      171,
+      633,
+      264
+    ],
+    "pixel_center": [
+      603,
+      217
+    ],
+    "confidence": 0.823872447013855,
+    "flight_data": {
+      "timestamp": 1751264307.257636,
+      "latitude": 39.7414,
+      "longitude": 116.4096,
+      "altitude": 100.0,
+      "pitch": 0.0,
+      "roll": 0.0,
+      "yaw": 45.0,
+      "ground_speed": 15.0,
+      "heading": 45.0
+    }
+  },
+  {
+    "target_id": "DT_T0066",
+    "frame_id": 23,
+    "timestamp": 1751264307.3498466,
+    "detection_box": [
+      786,
+      248,
+      863,
+      345
+    ],
+    "pixel_center": [
+      824,
+      296
+    ],
+    "confidence": 0.8692432045936584,
+    "flight_data": {
+      "timestamp": 1751264307.3498466,
+      "latitude": 39.741499999999995,
+      "longitude": 116.4097,
+      "altitude": 100.0,
+      "pitch": 0.0,
+      "roll": 0.0,
+      "yaw": 45.0,
+      "ground_speed": 15.0,
+      "heading": 45.0
+    }
+  },
+  {
+    "target_id": "DT_T0067",
+    "frame_id": 23,
+    "timestamp": 1751264307.3498466,
+    "detection_box": [
+      461,
+      395,
+      554,
+      478
+    ],
+    "pixel_center": [
+      507,
+      436
+    ],
+    "confidence": 0.8312398195266724,
+    "flight_data": {
+      "timestamp": 1751264307.3498466,
+      "latitude": 39.741499999999995,
+      "longitude": 116.4097,
+      "altitude": 100.0,
+      "pitch": 0.0,
+      "roll": 0.0,
+      "yaw": 45.0,
+      "ground_speed": 15.0,
+      "heading": 45.0
+    }
+  },
+  {
+    "target_id": "DT_T0068",
+    "frame_id": 23,
+    "timestamp": 1751264307.3498466,
+    "detection_box": [
+      574,
+      172,
+      633,
+      264
+    ],
+    "pixel_center": [
+      603,
+      218
+    ],
+    "confidence": 0.8248310685157776,
+    "flight_data": {
+      "timestamp": 1751264307.3498466,
+      "latitude": 39.741499999999995,
+      "longitude": 116.4097,
+      "altitude": 100.0,
+      "pitch": 0.0,
+      "roll": 0.0,
+      "yaw": 45.0,
+      "ground_speed": 15.0,
+      "heading": 45.0
+    }
+  },
+  {
+    "target_id": "DT_T0069",
+    "frame_id": 24,
+    "timestamp": 1751264307.474808,
+    "detection_box": [
+      786,
+      248,
+      863,
+      345
+    ],
+    "pixel_center": [
+      824,
+      296
+    ],
+    "confidence": 0.8685743808746338,
+    "flight_data": {
+      "timestamp": 1751264307.474808,
+      "latitude": 39.7416,
+      "longitude": 116.40979999999999,
+      "altitude": 100.0,
+      "pitch": 0.0,
+      "roll": 0.0,
+      "yaw": 45.0,
+      "ground_speed": 15.0,
+      "heading": 45.0
+    }
+  },
+  {
+    "target_id": "DT_T0070",
+    "frame_id": 24,
+    "timestamp": 1751264307.474808,
+    "detection_box": [
+      461,
+      394,
+      554,
+      478
+    ],
+    "pixel_center": [
+      507,
+      436
+    ],
+    "confidence": 0.8314307928085327,
+    "flight_data": {
+      "timestamp": 1751264307.474808,
+      "latitude": 39.7416,
+      "longitude": 116.40979999999999,
+      "altitude": 100.0,
+      "pitch": 0.0,
+      "roll": 0.0,
+      "yaw": 45.0,
+      "ground_speed": 15.0,
+      "heading": 45.0
+    }
+  },
+  {
+    "target_id": "DT_T0071",
+    "frame_id": 24,
+    "timestamp": 1751264307.474808,
+    "detection_box": [
+      574,
+      171,
+      633,
+      264
+    ],
+    "pixel_center": [
+      603,
+      217
+    ],
+    "confidence": 0.8253048658370972,
+    "flight_data": {
+      "timestamp": 1751264307.474808,
+      "latitude": 39.7416,
+      "longitude": 116.40979999999999,
+      "altitude": 100.0,
+      "pitch": 0.0,
+      "roll": 0.0,
+      "yaw": 45.0,
+      "ground_speed": 15.0,
+      "heading": 45.0
+    }
+  },
+  {
+    "target_id": "DT_T0072",
+    "frame_id": 25,
+    "timestamp": 1751264307.7039402,
+    "detection_box": [
+      786,
+      248,
+      862,
+      345
+    ],
+    "pixel_center": [
+      824,
+      296
+    ],
+    "confidence": 0.8697528839111328,
+    "flight_data": {
+      "timestamp": 1751264307.7039402,
+      "latitude": 39.741699999999994,
+      "longitude": 116.4099,
+      "altitude": 100.0,
+      "pitch": 0.0,
+      "roll": 0.0,
+      "yaw": 45.0,
+      "ground_speed": 15.0,
+      "heading": 45.0
+    }
+  },
+  {
+    "target_id": "DT_T0073",
+    "frame_id": 25,
+    "timestamp": 1751264307.7039402,
+    "detection_box": [
+      461,
+      395,
+      553,
+      479
+    ],
+    "pixel_center": [
+      507,
+      437
+    ],
+    "confidence": 0.830148458480835,
+    "flight_data": {
+      "timestamp": 1751264307.7039402,
+      "latitude": 39.741699999999994,
+      "longitude": 116.4099,
+      "altitude": 100.0,
+      "pitch": 0.0,
+      "roll": 0.0,
+      "yaw": 45.0,
+      "ground_speed": 15.0,
+      "heading": 45.0
+    }
+  },
+  {
+    "target_id": "DT_T0074",
+    "frame_id": 25,
+    "timestamp": 1751264307.7039402,
+    "detection_box": [
+      574,
+      171,
+      633,
+      264
+    ],
+    "pixel_center": [
+      603,
+      217
+    ],
+    "confidence": 0.8264128565788269,
+    "flight_data": {
+      "timestamp": 1751264307.7039402,
+      "latitude": 39.741699999999994,
+      "longitude": 116.4099,
+      "altitude": 100.0,
+      "pitch": 0.0,
+      "roll": 0.0,
+      "yaw": 45.0,
+      "ground_speed": 15.0,
+      "heading": 45.0
+    }
+  },
+  {
+    "target_id": "DT_T0075",
+    "frame_id": 26,
+    "timestamp": 1751264308.022482,
+    "detection_box": [
+      787,
+      248,
+      862,
+      346
+    ],
+    "pixel_center": [
+      824,
+      297
+    ],
+    "confidence": 0.868297278881073,
+    "flight_data": {
+      "timestamp": 1751264308.022482,
+      "latitude": 39.7418,
+      "longitude": 116.41,
+      "altitude": 100.0,
+      "pitch": 0.0,
+      "roll": 0.0,
+      "yaw": 45.0,
+      "ground_speed": 15.0,
+      "heading": 45.0
+    }
+  },
+  {
+    "target_id": "DT_T0076",
+    "frame_id": 26,
+    "timestamp": 1751264308.022482,
+    "detection_box": [
+      461,
+      395,
+      554,
+      479
+    ],
+    "pixel_center": [
+      507,
+      437
+    ],
+    "confidence": 0.8277251720428467,
+    "flight_data": {
+      "timestamp": 1751264308.022482,
+      "latitude": 39.7418,
+      "longitude": 116.41,
+      "altitude": 100.0,
+      "pitch": 0.0,
+      "roll": 0.0,
+      "yaw": 45.0,
+      "ground_speed": 15.0,
+      "heading": 45.0
+    }
+  },
+  {
+    "target_id": "DT_T0077",
+    "frame_id": 26,
+    "timestamp": 1751264308.022482,
+    "detection_box": [
+      574,
+      172,
+      633,
+      265
+    ],
+    "pixel_center": [
+      603,
+      218
+    ],
+    "confidence": 0.82728511095047,
+    "flight_data": {
+      "timestamp": 1751264308.022482,
+      "latitude": 39.7418,
+      "longitude": 116.41,
+      "altitude": 100.0,
+      "pitch": 0.0,
+      "roll": 0.0,
+      "yaw": 45.0,
+      "ground_speed": 15.0,
+      "heading": 45.0
+    }
+  },
+  {
+    "target_id": "DT_T0078",
+    "frame_id": 27,
+    "timestamp": 1751264308.4515057,
+    "detection_box": [
+      787,
+      248,
+      862,
+      346
+    ],
+    "pixel_center": [
+      824,
+      297
+    ],
+    "confidence": 0.8673020005226135,
+    "flight_data": {
+      "timestamp": 1751264308.4515057,
+      "latitude": 39.741899999999994,
+      "longitude": 116.4101,
+      "altitude": 100.0,
+      "pitch": 0.0,
+      "roll": 0.0,
+      "yaw": 45.0,
+      "ground_speed": 15.0,
+      "heading": 45.0
+    }
+  },
+  {
+    "target_id": "DT_T0079",
+    "frame_id": 27,
+    "timestamp": 1751264308.4515057,
+    "detection_box": [
+      573,
+      172,
+      633,
+      265
+    ],
+    "pixel_center": [
+      603,
+      218
+    ],
+    "confidence": 0.8281793594360352,
+    "flight_data": {
+      "timestamp": 1751264308.4515057,
+      "latitude": 39.741899999999994,
+      "longitude": 116.4101,
+      "altitude": 100.0,
+      "pitch": 0.0,
+      "roll": 0.0,
+      "yaw": 45.0,
+      "ground_speed": 15.0,
+      "heading": 45.0
+    }
+  },
+  {
+    "target_id": "DT_T0080",
+    "frame_id": 27,
+    "timestamp": 1751264308.4515057,
+    "detection_box": [
+      461,
+      395,
+      554,
+      479
+    ],
+    "pixel_center": [
+      507,
+      437
+    ],
+    "confidence": 0.8266997933387756,
+    "flight_data": {
+      "timestamp": 1751264308.4515057,
+      "latitude": 39.741899999999994,
+      "longitude": 116.4101,
+      "altitude": 100.0,
+      "pitch": 0.0,
+      "roll": 0.0,
+      "yaw": 45.0,
+      "ground_speed": 15.0,
+      "heading": 45.0
+    }
+  },
+  {
+    "target_id": "DT_T0081",
+    "frame_id": 28,
+    "timestamp": 1751264308.7888353,
+    "detection_box": [
+      786,
+      248,
+      862,
+      346
+    ],
+    "pixel_center": [
+      824,
+      297
+    ],
+    "confidence": 0.8659076690673828,
+    "flight_data": {
+      "timestamp": 1751264308.7888353,
+      "latitude": 39.742,
+      "longitude": 116.41019999999999,
+      "altitude": 100.0,
+      "pitch": 0.0,
+      "roll": 0.0,
+      "yaw": 45.0,
+      "ground_speed": 15.0,
+      "heading": 45.0
+    }
+  },
+  {
+    "target_id": "DT_T0082",
+    "frame_id": 28,
+    "timestamp": 1751264308.7888353,
+    "detection_box": [
+      573,
+      172,
+      633,
+      265
+    ],
+    "pixel_center": [
+      603,
+      218
+    ],
+    "confidence": 0.8279134631156921,
+    "flight_data": {
+      "timestamp": 1751264308.7888353,
+      "latitude": 39.742,
+      "longitude": 116.41019999999999,
+      "altitude": 100.0,
+      "pitch": 0.0,
+      "roll": 0.0,
+      "yaw": 45.0,
+      "ground_speed": 15.0,
+      "heading": 45.0
+    }
+  },
+  {
+    "target_id": "DT_T0083",
+    "frame_id": 28,
+    "timestamp": 1751264308.7888353,
+    "detection_box": [
+      461,
+      395,
+      554,
+      479
+    ],
+    "pixel_center": [
+      507,
+      437
+    ],
+    "confidence": 0.8264240026473999,
+    "flight_data": {
+      "timestamp": 1751264308.7888353,
+      "latitude": 39.742,
+      "longitude": 116.41019999999999,
+      "altitude": 100.0,
+      "pitch": 0.0,
+      "roll": 0.0,
+      "yaw": 45.0,
+      "ground_speed": 15.0,
+      "heading": 45.0
+    }
+  },
+  {
+    "target_id": "DT_T0084",
+    "frame_id": 29,
+    "timestamp": 1751264309.1241233,
+    "detection_box": [
+      786,
+      248,
+      862,
+      346
+    ],
+    "pixel_center": [
+      824,
+      297
+    ],
+    "confidence": 0.8665264844894409,
+    "flight_data": {
+      "timestamp": 1751264309.1241233,
+      "latitude": 39.74209999999999,
+      "longitude": 116.41029999999999,
+      "altitude": 100.0,
+      "pitch": 0.0,
+      "roll": 0.0,
+      "yaw": 45.0,
+      "ground_speed": 15.0,
+      "heading": 45.0
+    }
+  },
+  {
+    "target_id": "DT_T0085",
+    "frame_id": 29,
+    "timestamp": 1751264309.1241233,
+    "detection_box": [
+      574,
+      172,
+      633,
+      265
+    ],
+    "pixel_center": [
+      603,
+      218
+    ],
+    "confidence": 0.8277657628059387,
+    "flight_data": {
+      "timestamp": 1751264309.1241233,
+      "latitude": 39.74209999999999,
+      "longitude": 116.41029999999999,
+      "altitude": 100.0,
+      "pitch": 0.0,
+      "roll": 0.0,
+      "yaw": 45.0,
+      "ground_speed": 15.0,
+      "heading": 45.0
+    }
+  },
+  {
+    "target_id": "DT_T0086",
+    "frame_id": 29,
+    "timestamp": 1751264309.1241233,
+    "detection_box": [
+      461,
+      396,
+      553,
+      479
+    ],
+    "pixel_center": [
+      507,
+      437
+    ],
+    "confidence": 0.823408305644989,
+    "flight_data": {
+      "timestamp": 1751264309.1241233,
+      "latitude": 39.74209999999999,
+      "longitude": 116.41029999999999,
+      "altitude": 100.0,
+      "pitch": 0.0,
+      "roll": 0.0,
+      "yaw": 45.0,
+      "ground_speed": 15.0,
+      "heading": 45.0
+    }
+  },
+  {
+    "target_id": "DT_T0087",
+    "frame_id": 30,
+    "timestamp": 1751264309.340886,
+    "detection_box": [
+      786,
+      248,
+      863,
+      346
+    ],
+    "pixel_center": [
+      824,
+      297
+    ],
+    "confidence": 0.867017388343811,
+    "flight_data": {
+      "timestamp": 1751264309.340886,
+      "latitude": 39.7422,
+      "longitude": 116.4104,
+      "altitude": 100.0,
+      "pitch": 0.0,
+      "roll": 0.0,
+      "yaw": 45.0,
+      "ground_speed": 15.0,
+      "heading": 45.0
+    }
+  },
+  {
+    "target_id": "DT_T0088",
+    "frame_id": 30,
+    "timestamp": 1751264309.340886,
+    "detection_box": [
+      574,
+      172,
+      633,
+      265
+    ],
+    "pixel_center": [
+      603,
+      218
+    ],
+    "confidence": 0.8231796622276306,
+    "flight_data": {
+      "timestamp": 1751264309.340886,
+      "latitude": 39.7422,
+      "longitude": 116.4104,
+      "altitude": 100.0,
+      "pitch": 0.0,
+      "roll": 0.0,
+      "yaw": 45.0,
+      "ground_speed": 15.0,
+      "heading": 45.0
+    }
+  },
+  {
+    "target_id": "DT_T0089",
+    "frame_id": 30,
+    "timestamp": 1751264309.340886,
+    "detection_box": [
+      461,
+      396,
+      553,
+      479
+    ],
+    "pixel_center": [
+      507,
+      437
+    ],
+    "confidence": 0.8211864233016968,
+    "flight_data": {
+      "timestamp": 1751264309.340886,
+      "latitude": 39.7422,
+      "longitude": 116.4104,
+      "altitude": 100.0,
+      "pitch": 0.0,
+      "roll": 0.0,
+      "yaw": 45.0,
+      "ground_speed": 15.0,
+      "heading": 45.0
+    }
+  },
+  {
+    "target_id": "DT_T0090",
+    "frame_id": 31,
+    "timestamp": 1751264309.7063453,
+    "detection_box": [
+      786,
+      248,
+      863,
+      346
+    ],
+    "pixel_center": [
+      824,
+      297
+    ],
+    "confidence": 0.866341769695282,
+    "flight_data": {
+      "timestamp": 1751264309.7063453,
+      "latitude": 39.7423,
+      "longitude": 116.4105,
+      "altitude": 100.0,
+      "pitch": 0.0,
+      "roll": 0.0,
+      "yaw": 45.0,
+      "ground_speed": 15.0,
+      "heading": 45.0
+    }
+  },
+  {
+    "target_id": "DT_T0091",
+    "frame_id": 31,
+    "timestamp": 1751264309.7063453,
+    "detection_box": [
+      572,
+      172,
+      634,
+      266
+    ],
+    "pixel_center": [
+      603,
+      219
+    ],
+    "confidence": 0.8224641680717468,
+    "flight_data": {
+      "timestamp": 1751264309.7063453,
+      "latitude": 39.7423,
+      "longitude": 116.4105,
+      "altitude": 100.0,
+      "pitch": 0.0,
+      "roll": 0.0,
+      "yaw": 45.0,
+      "ground_speed": 15.0,
+      "heading": 45.0
+    }
+  },
+  {
+    "target_id": "DT_T0092",
+    "frame_id": 31,
+    "timestamp": 1751264309.7063453,
+    "detection_box": [
+      461,
+      396,
+      553,
+      480
+    ],
+    "pixel_center": [
+      507,
+      438
+    ],
+    "confidence": 0.8199378848075867,
+    "flight_data": {
+      "timestamp": 1751264309.7063453,
+      "latitude": 39.7423,
+      "longitude": 116.4105,
+      "altitude": 100.0,
+      "pitch": 0.0,
+      "roll": 0.0,
+      "yaw": 45.0,
+      "ground_speed": 15.0,
+      "heading": 45.0
+    }
+  },
+  {
+    "target_id": "DT_T0093",
+    "frame_id": 32,
+    "timestamp": 1751264309.9306517,
+    "detection_box": [
+      786,
+      248,
+      863,
+      346
+    ],
+    "pixel_center": [
+      824,
+      297
+    ],
+    "confidence": 0.8665942549705505,
+    "flight_data": {
+      "timestamp": 1751264309.9306517,
+      "latitude": 39.742399999999996,
+      "longitude": 116.4106,
+      "altitude": 100.0,
+      "pitch": 0.0,
+      "roll": 0.0,
+      "yaw": 45.0,
+      "ground_speed": 15.0,
+      "heading": 45.0
+    }
+  },
+  {
+    "target_id": "DT_T0094",
+    "frame_id": 32,
+    "timestamp": 1751264309.9306517,
+    "detection_box": [
+      572,
+      172,
+      634,
+      266
+    ],
+    "pixel_center": [
+      603,
+      219
+    ],
+    "confidence": 0.8225905895233154,
+    "flight_data": {
+      "timestamp": 1751264309.9306517,
+      "latitude": 39.742399999999996,
+      "longitude": 116.4106,
+      "altitude": 100.0,
+      "pitch": 0.0,
+      "roll": 0.0,
+      "yaw": 45.0,
+      "ground_speed": 15.0,
+      "heading": 45.0
+    }
+  },
+  {
+    "target_id": "DT_T0095",
+    "frame_id": 32,
+    "timestamp": 1751264309.9306517,
+    "detection_box": [
+      461,
+      396,
+      553,
+      480
+    ],
+    "pixel_center": [
+      507,
+      438
+    ],
+    "confidence": 0.8189575672149658,
+    "flight_data": {
+      "timestamp": 1751264309.9306517,
+      "latitude": 39.742399999999996,
+      "longitude": 116.4106,
+      "altitude": 100.0,
+      "pitch": 0.0,
+      "roll": 0.0,
+      "yaw": 45.0,
+      "ground_speed": 15.0,
+      "heading": 45.0
+    }
+  },
+  {
+    "target_id": "DT_T0096",
+    "frame_id": 33,
+    "timestamp": 1751264310.480202,
+    "detection_box": [
+      786,
+      248,
+      863,
+      346
+    ],
+    "pixel_center": [
+      824,
+      297
+    ],
+    "confidence": 0.8657609224319458,
+    "flight_data": {
+      "timestamp": 1751264310.480202,
+      "latitude": 39.7425,
+      "longitude": 116.41069999999999,
+      "altitude": 100.0,
+      "pitch": 0.0,
+      "roll": 0.0,
+      "yaw": 45.0,
+      "ground_speed": 15.0,
+      "heading": 45.0
+    }
+  },
+  {
+    "target_id": "DT_T0097",
+    "frame_id": 33,
+    "timestamp": 1751264310.480202,
+    "detection_box": [
+      572,
+      172,
+      634,
+      266
+    ],
+    "pixel_center": [
+      603,
+      219
+    ],
+    "confidence": 0.8229013085365295,
+    "flight_data": {
+      "timestamp": 1751264310.480202,
+      "latitude": 39.7425,
+      "longitude": 116.41069999999999,
+      "altitude": 100.0,
+      "pitch": 0.0,
+      "roll": 0.0,
+      "yaw": 45.0,
+      "ground_speed": 15.0,
+      "heading": 45.0
+    }
+  },
+  {
+    "target_id": "DT_T0098",
+    "frame_id": 33,
+    "timestamp": 1751264310.480202,
+    "detection_box": [
+      461,
+      396,
+      553,
+      480
+    ],
+    "pixel_center": [
+      507,
+      438
+    ],
+    "confidence": 0.8177808523178101,
+    "flight_data": {
+      "timestamp": 1751264310.480202,
+      "latitude": 39.7425,
+      "longitude": 116.41069999999999,
+      "altitude": 100.0,
+      "pitch": 0.0,
+      "roll": 0.0,
+      "yaw": 45.0,
+      "ground_speed": 15.0,
+      "heading": 45.0
+    }
+  },
+  {
+    "target_id": "DT_T0099",
+    "frame_id": 34,
+    "timestamp": 1751264311.154569,
+    "detection_box": [
+      786,
+      248,
+      863,
+      346
+    ],
+    "pixel_center": [
+      824,
+      297
+    ],
+    "confidence": 0.8653228878974915,
+    "flight_data": {
+      "timestamp": 1751264311.154569,
+      "latitude": 39.742599999999996,
+      "longitude": 116.4108,
+      "altitude": 100.0,
+      "pitch": 0.0,
+      "roll": 0.0,
+      "yaw": 45.0,
+      "ground_speed": 15.0,
+      "heading": 45.0
+    }
+  },
+  {
+    "target_id": "DT_T0100",
+    "frame_id": 34,
+    "timestamp": 1751264311.154569,
+    "detection_box": [
+      572,
+      172,
+      634,
+      266
+    ],
+    "pixel_center": [
+      603,
+      219
+    ],
+    "confidence": 0.8229017853736877,
+    "flight_data": {
+      "timestamp": 1751264311.154569,
+      "latitude": 39.742599999999996,
+      "longitude": 116.4108,
+      "altitude": 100.0,
+      "pitch": 0.0,
+      "roll": 0.0,
+      "yaw": 45.0,
+      "ground_speed": 15.0,
+      "heading": 45.0
+    }
+  },
+  {
+    "target_id": "DT_T0101",
+    "frame_id": 34,
+    "timestamp": 1751264311.154569,
+    "detection_box": [
+      460,
+      395,
+      555,
+      479
+    ],
+    "pixel_center": [
+      507,
+      437
+    ],
+    "confidence": 0.8178738951683044,
+    "flight_data": {
+      "timestamp": 1751264311.154569,
+      "latitude": 39.742599999999996,
+      "longitude": 116.4108,
+      "altitude": 100.0,
+      "pitch": 0.0,
+      "roll": 0.0,
+      "yaw": 45.0,
+      "ground_speed": 15.0,
+      "heading": 45.0
+    }
+  },
+  {
+    "target_id": "DT_T0102",
+    "frame_id": 35,
+    "timestamp": 1751264311.8172243,
+    "detection_box": [
+      786,
+      248,
+      863,
+      346
+    ],
+    "pixel_center": [
+      824,
+      297
+    ],
+    "confidence": 0.8652060031890869,
+    "flight_data": {
+      "timestamp": 1751264311.8172243,
+      "latitude": 39.7427,
+      "longitude": 116.4109,
+      "altitude": 100.0,
+      "pitch": 0.0,
+      "roll": 0.0,
+      "yaw": 45.0,
+      "ground_speed": 15.0,
+      "heading": 45.0
+    }
+  },
+  {
+    "target_id": "DT_T0103",
+    "frame_id": 35,
+    "timestamp": 1751264311.8172243,
+    "detection_box": [
+      572,
+      173,
+      634,
+      267
+    ],
+    "pixel_center": [
+      603,
+      220
+    ],
+    "confidence": 0.8240451216697693,
+    "flight_data": {
+      "timestamp": 1751264311.8172243,
+      "latitude": 39.7427,
+      "longitude": 116.4109,
+      "altitude": 100.0,
+      "pitch": 0.0,
+      "roll": 0.0,
+      "yaw": 45.0,
+      "ground_speed": 15.0,
+      "heading": 45.0
+    }
+  },
+  {
+    "target_id": "DT_T0104",
+    "frame_id": 35,
+    "timestamp": 1751264311.8172243,
+    "detection_box": [
+      460,
+      395,
+      555,
+      479
+    ],
+    "pixel_center": [
+      507,
+      437
+    ],
+    "confidence": 0.8179283738136292,
+    "flight_data": {
+      "timestamp": 1751264311.8172243,
+      "latitude": 39.7427,
+      "longitude": 116.4109,
+      "altitude": 100.0,
+      "pitch": 0.0,
+      "roll": 0.0,
+      "yaw": 45.0,
+      "ground_speed": 15.0,
+      "heading": 45.0
+    }
+  },
+  {
+    "target_id": "DT_T0105",
+    "frame_id": 36,
+    "timestamp": 1751264312.3866527,
+    "detection_box": [
+      786,
+      249,
+      863,
+      346
+    ],
+    "pixel_center": [
+      824,
+      297
+    ],
+    "confidence": 0.8651289939880371,
+    "flight_data": {
+      "timestamp": 1751264312.3866527,
+      "latitude": 39.742799999999995,
+      "longitude": 116.411,
+      "altitude": 100.0,
+      "pitch": 0.0,
+      "roll": 0.0,
+      "yaw": 45.0,
+      "ground_speed": 15.0,
+      "heading": 45.0
+    }
+  },
+  {
+    "target_id": "DT_T0106",
+    "frame_id": 36,
+    "timestamp": 1751264312.3866527,
+    "detection_box": [
+      572,
+      173,
+      634,
+      267
+    ],
+    "pixel_center": [
+      603,
+      220
+    ],
+    "confidence": 0.8238635063171387,
+    "flight_data": {
+      "timestamp": 1751264312.3866527,
+      "latitude": 39.742799999999995,
+      "longitude": 116.411,
+      "altitude": 100.0,
+      "pitch": 0.0,
+      "roll": 0.0,
+      "yaw": 45.0,
+      "ground_speed": 15.0,
+      "heading": 45.0
+    }
+  },
+  {
+    "target_id": "DT_T0107",
+    "frame_id": 36,
+    "timestamp": 1751264312.3866527,
+    "detection_box": [
+      460,
+      395,
+      555,
+      479
+    ],
+    "pixel_center": [
+      507,
+      437
+    ],
+    "confidence": 0.8179616928100586,
+    "flight_data": {
+      "timestamp": 1751264312.3866527,
+      "latitude": 39.742799999999995,
+      "longitude": 116.411,
+      "altitude": 100.0,
+      "pitch": 0.0,
+      "roll": 0.0,
+      "yaw": 45.0,
+      "ground_speed": 15.0,
+      "heading": 45.0
+    }
+  },
+  {
+    "target_id": "DT_T0108",
+    "frame_id": 37,
+    "timestamp": 1751264313.0454926,
+    "detection_box": [
+      786,
+      248,
+      863,
+      346
+    ],
+    "pixel_center": [
+      824,
+      297
+    ],
+    "confidence": 0.8647480607032776,
+    "flight_data": {
+      "timestamp": 1751264313.0454926,
+      "latitude": 39.7429,
+      "longitude": 116.41109999999999,
+      "altitude": 100.0,
+      "pitch": 0.0,
+      "roll": 0.0,
+      "yaw": 45.0,
+      "ground_speed": 15.0,
+      "heading": 45.0
+    }
+  },
+  {
+    "target_id": "DT_T0109",
+    "frame_id": 37,
+    "timestamp": 1751264313.0454926,
+    "detection_box": [
+      572,
+      173,
+      634,
+      267
+    ],
+    "pixel_center": [
+      603,
+      220
+    ],
+    "confidence": 0.8241299986839294,
+    "flight_data": {
+      "timestamp": 1751264313.0454926,
+      "latitude": 39.7429,
+      "longitude": 116.41109999999999,
+      "altitude": 100.0,
+      "pitch": 0.0,
+      "roll": 0.0,
+      "yaw": 45.0,
+      "ground_speed": 15.0,
+      "heading": 45.0
+    }
+  },
+  {
+    "target_id": "DT_T0110",
+    "frame_id": 37,
+    "timestamp": 1751264313.0454926,
+    "detection_box": [
+      460,
+      395,
+      555,
+      479
+    ],
+    "pixel_center": [
+      507,
+      437
+    ],
+    "confidence": 0.8186506628990173,
+    "flight_data": {
+      "timestamp": 1751264313.0454926,
+      "latitude": 39.7429,
+      "longitude": 116.41109999999999,
+      "altitude": 100.0,
+      "pitch": 0.0,
+      "roll": 0.0,
+      "yaw": 45.0,
+      "ground_speed": 15.0,
+      "heading": 45.0
+    }
+  },
+  {
+    "target_id": "DT_T0111",
+    "frame_id": 38,
+    "timestamp": 1751264313.6264887,
+    "detection_box": [
+      786,
+      249,
+      863,
+      346
+    ],
+    "pixel_center": [
+      824,
+      297
+    ],
+    "confidence": 0.8644996285438538,
+    "flight_data": {
+      "timestamp": 1751264313.6264887,
+      "latitude": 39.742999999999995,
+      "longitude": 116.4112,
+      "altitude": 100.0,
+      "pitch": 0.0,
+      "roll": 0.0,
+      "yaw": 45.0,
+      "ground_speed": 15.0,
+      "heading": 45.0
+    }
+  },
+  {
+    "target_id": "DT_T0112",
+    "frame_id": 38,
+    "timestamp": 1751264313.6264887,
+    "detection_box": [
+      572,
+      173,
+      634,
+      267
+    ],
+    "pixel_center": [
+      603,
+      220
+    ],
+    "confidence": 0.8237854242324829,
+    "flight_data": {
+      "timestamp": 1751264313.6264887,
+      "latitude": 39.742999999999995,
+      "longitude": 116.4112,
+      "altitude": 100.0,
+      "pitch": 0.0,
+      "roll": 0.0,
+      "yaw": 45.0,
+      "ground_speed": 15.0,
+      "heading": 45.0
+    }
+  },
+  {
+    "target_id": "DT_T0113",
+    "frame_id": 38,
+    "timestamp": 1751264313.6264887,
+    "detection_box": [
+      460,
+      395,
+      555,
+      480
+    ],
+    "pixel_center": [
+      507,
+      437
+    ],
+    "confidence": 0.819088339805603,
+    "flight_data": {
+      "timestamp": 1751264313.6264887,
+      "latitude": 39.742999999999995,
+      "longitude": 116.4112,
+      "altitude": 100.0,
+      "pitch": 0.0,
+      "roll": 0.0,
+      "yaw": 45.0,
+      "ground_speed": 15.0,
+      "heading": 45.0
+    }
+  },
+  {
+    "target_id": "DT_T0114",
+    "frame_id": 39,
+    "timestamp": 1751264314.2528384,
+    "detection_box": [
+      786,
+      249,
+      863,
+      346
+    ],
+    "pixel_center": [
+      824,
+      297
+    ],
+    "confidence": 0.8642367124557495,
+    "flight_data": {
+      "timestamp": 1751264314.2528384,
+      "latitude": 39.7431,
+      "longitude": 116.4113,
+      "altitude": 100.0,
+      "pitch": 0.0,
+      "roll": 0.0,
+      "yaw": 45.0,
+      "ground_speed": 15.0,
+      "heading": 45.0
+    }
+  },
+  {
+    "target_id": "DT_T0115",
+    "frame_id": 39,
+    "timestamp": 1751264314.2528384,
+    "detection_box": [
+      572,
+      173,
+      634,
+      267
+    ],
+    "pixel_center": [
+      603,
+      220
+    ],
+    "confidence": 0.8241333961486816,
+    "flight_data": {
+      "timestamp": 1751264314.2528384,
+      "latitude": 39.7431,
+      "longitude": 116.4113,
+      "altitude": 100.0,
+      "pitch": 0.0,
+      "roll": 0.0,
+      "yaw": 45.0,
+      "ground_speed": 15.0,
+      "heading": 45.0
+    }
+  },
+  {
+    "target_id": "DT_T0116",
+    "frame_id": 39,
+    "timestamp": 1751264314.2528384,
+    "detection_box": [
+      460,
+      395,
+      555,
+      480
+    ],
+    "pixel_center": [
+      507,
+      437
+    ],
+    "confidence": 0.8190575242042542,
+    "flight_data": {
+      "timestamp": 1751264314.2528384,
+      "latitude": 39.7431,
+      "longitude": 116.4113,
+      "altitude": 100.0,
+      "pitch": 0.0,
+      "roll": 0.0,
+      "yaw": 45.0,
+      "ground_speed": 15.0,
+      "heading": 45.0
+    }
+  },
+  {
+    "target_id": "DT_T0117",
+    "frame_id": 40,
+    "timestamp": 1751264314.8079238,
+    "detection_box": [
+      786,
+      249,
+      863,
+      346
+    ],
+    "pixel_center": [
+      824,
+      297
+    ],
+    "confidence": 0.8641821146011353,
+    "flight_data": {
+      "timestamp": 1751264314.8079238,
+      "latitude": 39.743199999999995,
+      "longitude": 116.4114,
+      "altitude": 100.0,
+      "pitch": 0.0,
+      "roll": 0.0,
+      "yaw": 45.0,
+      "ground_speed": 15.0,
+      "heading": 45.0
+    }
+  },
+  {
+    "target_id": "DT_T0118",
+    "frame_id": 40,
+    "timestamp": 1751264314.8079238,
+    "detection_box": [
+      572,
+      173,
+      634,
+      267
+    ],
+    "pixel_center": [
+      603,
+      220
+    ],
+    "confidence": 0.8245407342910767,
+    "flight_data": {
+      "timestamp": 1751264314.8079238,
+      "latitude": 39.743199999999995,
+      "longitude": 116.4114,
+      "altitude": 100.0,
+      "pitch": 0.0,
+      "roll": 0.0,
+      "yaw": 45.0,
+      "ground_speed": 15.0,
+      "heading": 45.0
+    }
+  },
+  {
+    "target_id": "DT_T0119",
+    "frame_id": 40,
+    "timestamp": 1751264314.8079238,
+    "detection_box": [
+      460,
+      395,
+      555,
+      480
+    ],
+    "pixel_center": [
+      507,
+      437
+    ],
+    "confidence": 0.8186249732971191,
+    "flight_data": {
+      "timestamp": 1751264314.8079238,
+      "latitude": 39.743199999999995,
+      "longitude": 116.4114,
+      "altitude": 100.0,
+      "pitch": 0.0,
+      "roll": 0.0,
+      "yaw": 45.0,
+      "ground_speed": 15.0,
+      "heading": 45.0
+    }
+  }
+]

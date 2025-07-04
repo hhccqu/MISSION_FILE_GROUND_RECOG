@@ -1,0 +1,1677 @@
+[
+  {
+    "target_id": "DT_T0000",
+    "detected_number": "未识别",
+    "pixel_position": {
+      "x": 820,
+      "y": 298
+    },
+    "confidence": 0.8341917991638184,
+    "gps_position": {
+      "latitude": 39.745483442192814,
+      "longitude": 116.4183424277791
+    },
+    "flight_data": {
+      "timestamp": 1751264305.0209494,
+      "latitude": 39.7393,
+      "longitude": 116.4075,
+      "altitude": 100.0,
+      "pitch": 0.0,
+      "roll": 0.0,
+      "yaw": 45.0,
+      "ground_speed": 15.0,
+      "heading": 45.0
+    },
+    "detection_timestamp": 1751264305.0209494
+  },
+  {
+    "target_id": "DT_T0001",
+    "detected_number": "未识别",
+    "pixel_position": {
+      "x": 505,
+      "y": 437
+    },
+    "confidence": 0.8230003714561462,
+    "gps_position": {
+      "latitude": 39.74736559032431,
+      "longitude": 116.41589477756195
+    },
+    "flight_data": {
+      "timestamp": 1751264305.0209494,
+      "latitude": 39.7393,
+      "longitude": 116.4075,
+      "altitude": 100.0,
+      "pitch": 0.0,
+      "roll": 0.0,
+      "yaw": 45.0,
+      "ground_speed": 15.0,
+      "heading": 45.0
+    },
+    "detection_timestamp": 1751264305.0209494
+  },
+  {
+    "target_id": "DT_T0002",
+    "detected_number": "未识别",
+    "pixel_position": {
+      "x": 600,
+      "y": 219
+    },
+    "confidence": 0.8136248588562012,
+    "gps_position": {
+      "latitude": 39.74353139128535,
+      "longitude": 116.41265387544296
+    },
+    "flight_data": {
+      "timestamp": 1751264305.0209494,
+      "latitude": 39.7393,
+      "longitude": 116.4075,
+      "altitude": 100.0,
+      "pitch": 0.0,
+      "roll": 0.0,
+      "yaw": 45.0,
+      "ground_speed": 15.0,
+      "heading": 45.0
+    },
+    "detection_timestamp": 1751264305.0209494
+  },
+  {
+    "target_id": "DT_T0003",
+    "detected_number": "未识别",
+    "pixel_position": {
+      "x": 820,
+      "y": 298
+    },
+    "confidence": 0.8446958065032959,
+    "gps_position": {
+      "latitude": 39.74558344219281,
+      "longitude": 116.41844244351176
+    },
+    "flight_data": {
+      "timestamp": 1751264305.3449595,
+      "latitude": 39.739399999999996,
+      "longitude": 116.4076,
+      "altitude": 100.0,
+      "pitch": 0.0,
+      "roll": 0.0,
+      "yaw": 45.0,
+      "ground_speed": 15.0,
+      "heading": 45.0
+    },
+    "detection_timestamp": 1751264305.3449595
+  },
+  {
+    "target_id": "DT_T0004",
+    "detected_number": "3",
+    "pixel_position": {
+      "x": 505,
+      "y": 437
+    },
+    "confidence": 0.8284810185432434,
+    "gps_position": {
+      "latitude": 39.7474655903243,
+      "longitude": 116.41599478974301
+    },
+    "flight_data": {
+      "timestamp": 1751264305.3449595,
+      "latitude": 39.739399999999996,
+      "longitude": 116.4076,
+      "altitude": 100.0,
+      "pitch": 0.0,
+      "roll": 0.0,
+      "yaw": 45.0,
+      "ground_speed": 15.0,
+      "heading": 45.0
+    },
+    "detection_timestamp": 1751264305.3449595
+  },
+  {
+    "target_id": "DT_T0005",
+    "detected_number": "未识别",
+    "pixel_position": {
+      "x": 600,
+      "y": 218
+    },
+    "confidence": 0.8195837736129761,
+    "gps_position": {
+      "latitude": 39.743601115863534,
+      "longitude": 116.41271700711177
+    },
+    "flight_data": {
+      "timestamp": 1751264305.3449595,
+      "latitude": 39.739399999999996,
+      "longitude": 116.4076,
+      "altitude": 100.0,
+      "pitch": 0.0,
+      "roll": 0.0,
+      "yaw": 45.0,
+      "ground_speed": 15.0,
+      "heading": 45.0
+    },
+    "detection_timestamp": 1751264305.3449595
+  },
+  {
+    "target_id": "DT_T0006",
+    "detected_number": "未识别",
+    "pixel_position": {
+      "x": 820,
+      "y": 298
+    },
+    "confidence": 0.8485640287399292,
+    "gps_position": {
+      "latitude": 39.745683442192814,
+      "longitude": 116.41854245924449
+    },
+    "flight_data": {
+      "timestamp": 1751264305.4555576,
+      "latitude": 39.7395,
+      "longitude": 116.40769999999999,
+      "altitude": 100.0,
+      "pitch": 0.0,
+      "roll": 0.0,
+      "yaw": 45.0,
+      "ground_speed": 15.0,
+      "heading": 45.0
+    },
+    "detection_timestamp": 1751264305.4555576
+  },
+  {
+    "target_id": "DT_T0007",
+    "detected_number": "未识别",
+    "pixel_position": {
+      "x": 505,
+      "y": 437
+    },
+    "confidence": 0.8279876112937927,
+    "gps_position": {
+      "latitude": 39.74756559032431,
+      "longitude": 116.4160948019241
+    },
+    "flight_data": {
+      "timestamp": 1751264305.4555576,
+      "latitude": 39.7395,
+      "longitude": 116.40769999999999,
+      "altitude": 100.0,
+      "pitch": 0.0,
+      "roll": 0.0,
+      "yaw": 45.0,
+      "ground_speed": 15.0,
+      "heading": 45.0
+    },
+    "detection_timestamp": 1751264305.4555576
+  },
+  {
+    "target_id": "DT_T0008",
+    "detected_number": "6",
+    "pixel_position": {
+      "x": 600,
+      "y": 218
+    },
+    "confidence": 0.8203179240226746,
+    "gps_position": {
+      "latitude": 39.74370111586354,
+      "longitude": 116.4128170145367
+    },
+    "flight_data": {
+      "timestamp": 1751264305.4555576,
+      "latitude": 39.7395,
+      "longitude": 116.40769999999999,
+      "altitude": 100.0,
+      "pitch": 0.0,
+      "roll": 0.0,
+      "yaw": 45.0,
+      "ground_speed": 15.0,
+      "heading": 45.0
+    },
+    "detection_timestamp": 1751264305.4555576
+  },
+  {
+    "target_id": "DT_T0009",
+    "detected_number": "未识别",
+    "pixel_position": {
+      "x": 821,
+      "y": 297
+    },
+    "confidence": 0.8541102409362793,
+    "gps_position": {
+      "latitude": 39.745777370834375,
+      "longitude": 116.4186503705442
+    },
+    "flight_data": {
+      "timestamp": 1751264305.5550864,
+      "latitude": 39.739599999999996,
+      "longitude": 116.4078,
+      "altitude": 100.0,
+      "pitch": 0.0,
+      "roll": 0.0,
+      "yaw": 45.0,
+      "ground_speed": 15.0,
+      "heading": 45.0
+    },
+    "detection_timestamp": 1751264305.5550864
+  },
+  {
+    "target_id": "DT_T0010",
+    "detected_number": "未识别",
+    "pixel_position": {
+      "x": 506,
+      "y": 437
+    },
+    "confidence": 0.8296060562133789,
+    "gps_position": {
+      "latitude": 39.747659577896414,
+      "longitude": 116.41620263303528
+    },
+    "flight_data": {
+      "timestamp": 1751264305.5550864,
+      "latitude": 39.739599999999996,
+      "longitude": 116.4078,
+      "altitude": 100.0,
+      "pitch": 0.0,
+      "roll": 0.0,
+      "yaw": 45.0,
+      "ground_speed": 15.0,
+      "heading": 45.0
+    },
+    "detection_timestamp": 1751264305.5550864
+  },
+  {
+    "target_id": "DT_T0011",
+    "detected_number": "6",
+    "pixel_position": {
+      "x": 601,
+      "y": 218
+    },
+    "confidence": 0.8223422765731812,
+    "gps_position": {
+      "latitude": 39.743797784305535,
+      "longitude": 116.41292135452404
+    },
+    "flight_data": {
+      "timestamp": 1751264305.5550864,
+      "latitude": 39.739599999999996,
+      "longitude": 116.4078,
+      "altitude": 100.0,
+      "pitch": 0.0,
+      "roll": 0.0,
+      "yaw": 45.0,
+      "ground_speed": 15.0,
+      "heading": 45.0
+    },
+    "detection_timestamp": 1751264305.5550864
+  },
+  {
+    "target_id": "DT_T0012",
+    "detected_number": "未识别",
+    "pixel_position": {
+      "x": 821,
+      "y": 297
+    },
+    "confidence": 0.8559533953666687,
+    "gps_position": {
+      "latitude": 39.74587737083438,
+      "longitude": 116.41875038628855
+    },
+    "flight_data": {
+      "timestamp": 1751264305.648317,
+      "latitude": 39.7397,
+      "longitude": 116.4079,
+      "altitude": 100.0,
+      "pitch": 0.0,
+      "roll": 0.0,
+      "yaw": 45.0,
+      "ground_speed": 15.0,
+      "heading": 45.0
+    },
+    "detection_timestamp": 1751264305.648317
+  },
+  {
+    "target_id": "DT_T0013",
+    "detected_number": "未识别",
+    "pixel_position": {
+      "x": 506,
+      "y": 437
+    },
+    "confidence": 0.8292651176452637,
+    "gps_position": {
+      "latitude": 39.74775957789642,
+      "longitude": 116.41630264522787
+    },
+    "flight_data": {
+      "timestamp": 1751264305.648317,
+      "latitude": 39.7397,
+      "longitude": 116.4079,
+      "altitude": 100.0,
+      "pitch": 0.0,
+      "roll": 0.0,
+      "yaw": 45.0,
+      "ground_speed": 15.0,
+      "heading": 45.0
+    },
+    "detection_timestamp": 1751264305.648317
+  },
+  {
+    "target_id": "DT_T0014",
+    "detected_number": "6",
+    "pixel_position": {
+      "x": 601,
+      "y": 218
+    },
+    "confidence": 0.8223897218704224,
+    "gps_position": {
+      "latitude": 39.74389778430554,
+      "longitude": 116.41302136195534
+    },
+    "flight_data": {
+      "timestamp": 1751264305.648317,
+      "latitude": 39.7397,
+      "longitude": 116.4079,
+      "altitude": 100.0,
+      "pitch": 0.0,
+      "roll": 0.0,
+      "yaw": 45.0,
+      "ground_speed": 15.0,
+      "heading": 45.0
+    },
+    "detection_timestamp": 1751264305.648317
+  },
+  {
+    "target_id": "DT_T0015",
+    "detected_number": "未识别",
+    "pixel_position": {
+      "x": 821,
+      "y": 297
+    },
+    "confidence": 0.8587781190872192,
+    "gps_position": {
+      "latitude": 39.745977370834375,
+      "longitude": 116.41885040203299
+    },
+    "flight_data": {
+      "timestamp": 1751264305.7461555,
+      "latitude": 39.739799999999995,
+      "longitude": 116.408,
+      "altitude": 100.0,
+      "pitch": 0.0,
+      "roll": 0.0,
+      "yaw": 45.0,
+      "ground_speed": 15.0,
+      "heading": 45.0
+    },
+    "detection_timestamp": 1751264305.7461555
+  },
+  {
+    "target_id": "DT_T0016",
+    "detected_number": "未识别",
+    "pixel_position": {
+      "x": 506,
+      "y": 437
+    },
+    "confidence": 0.8279367685317993,
+    "gps_position": {
+      "latitude": 39.74785957789641,
+      "longitude": 116.4164026574205
+    },
+    "flight_data": {
+      "timestamp": 1751264305.7461555,
+      "latitude": 39.739799999999995,
+      "longitude": 116.408,
+      "altitude": 100.0,
+      "pitch": 0.0,
+      "roll": 0.0,
+      "yaw": 45.0,
+      "ground_speed": 15.0,
+      "heading": 45.0
+    },
+    "detection_timestamp": 1751264305.7461555
+  },
+  {
+    "target_id": "DT_T0017",
+    "detected_number": "6",
+    "pixel_position": {
+      "x": 601,
+      "y": 218
+    },
+    "confidence": 0.8240503072738647,
+    "gps_position": {
+      "latitude": 39.743997784305535,
+      "longitude": 116.4131213693867
+    },
+    "flight_data": {
+      "timestamp": 1751264305.7461555,
+      "latitude": 39.739799999999995,
+      "longitude": 116.408,
+      "altitude": 100.0,
+      "pitch": 0.0,
+      "roll": 0.0,
+      "yaw": 45.0,
+      "ground_speed": 15.0,
+      "heading": 45.0
+    },
+    "detection_timestamp": 1751264305.7461555
+  },
+  {
+    "target_id": "DT_T0018",
+    "detected_number": "未识别",
+    "pixel_position": {
+      "x": 821,
+      "y": 297
+    },
+    "confidence": 0.8607520461082458,
+    "gps_position": {
+      "latitude": 39.74607737083438,
+      "longitude": 116.41895041777748
+    },
+    "flight_data": {
+      "timestamp": 1751264305.843638,
+      "latitude": 39.7399,
+      "longitude": 116.40809999999999,
+      "altitude": 100.0,
+      "pitch": 0.0,
+      "roll": 0.0,
+      "yaw": 45.0,
+      "ground_speed": 15.0,
+      "heading": 45.0
+    },
+    "detection_timestamp": 1751264305.843638
+  },
+  {
+    "target_id": "DT_T0019",
+    "detected_number": "未识别",
+    "pixel_position": {
+      "x": 506,
+      "y": 437
+    },
+    "confidence": 0.8285130262374878,
+    "gps_position": {
+      "latitude": 39.74795957789642,
+      "longitude": 116.41650266961321
+    },
+    "flight_data": {
+      "timestamp": 1751264305.843638,
+      "latitude": 39.7399,
+      "longitude": 116.40809999999999,
+      "altitude": 100.0,
+      "pitch": 0.0,
+      "roll": 0.0,
+      "yaw": 45.0,
+      "ground_speed": 15.0,
+      "heading": 45.0
+    },
+    "detection_timestamp": 1751264305.843638
+  },
+  {
+    "target_id": "DT_T0020",
+    "detected_number": "6",
+    "pixel_position": {
+      "x": 602,
+      "y": 218
+    },
+    "confidence": 0.8240125775337219,
+    "gps_position": {
+      "latitude": 39.74409445292153,
+      "longitude": 116.41322570917302
+    },
+    "flight_data": {
+      "timestamp": 1751264305.843638,
+      "latitude": 39.7399,
+      "longitude": 116.40809999999999,
+      "altitude": 100.0,
+      "pitch": 0.0,
+      "roll": 0.0,
+      "yaw": 45.0,
+      "ground_speed": 15.0,
+      "heading": 45.0
+    },
+    "detection_timestamp": 1751264305.843638
+  },
+  {
+    "target_id": "DT_T0021",
+    "detected_number": "未识别",
+    "pixel_position": {
+      "x": 822,
+      "y": 297
+    },
+    "confidence": 0.8644700050354004,
+    "gps_position": {
+      "latitude": 39.746171297993854,
+      "longitude": 116.4190583310622
+    },
+    "flight_data": {
+      "timestamp": 1751264305.927946,
+      "latitude": 39.739999999999995,
+      "longitude": 116.4082,
+      "altitude": 100.0,
+      "pitch": 0.0,
+      "roll": 0.0,
+      "yaw": 45.0,
+      "ground_speed": 15.0,
+      "heading": 45.0
+    },
+    "detection_timestamp": 1751264305.927946
+  },
+  {
+    "target_id": "DT_T0022",
+    "detected_number": "未识别",
+    "pixel_position": {
+      "x": 506,
+      "y": 437
+    },
+    "confidence": 0.8276283144950867,
+    "gps_position": {
+      "latitude": 39.74805957789641,
+      "longitude": 116.41660268180597
+    },
+    "flight_data": {
+      "timestamp": 1751264305.927946,
+      "latitude": 39.739999999999995,
+      "longitude": 116.4082,
+      "altitude": 100.0,
+      "pitch": 0.0,
+      "roll": 0.0,
+      "yaw": 45.0,
+      "ground_speed": 15.0,
+      "heading": 45.0
+    },
+    "detection_timestamp": 1751264305.927946
+  },
+  {
+    "target_id": "DT_T0023",
+    "detected_number": "95",
+    "pixel_position": {
+      "x": 602,
+      "y": 218
+    },
+    "confidence": 0.824317216873169,
+    "gps_position": {
+      "latitude": 39.744194452921526,
+      "longitude": 116.41332571661073
+    },
+    "flight_data": {
+      "timestamp": 1751264305.927946,
+      "latitude": 39.739999999999995,
+      "longitude": 116.4082,
+      "altitude": 100.0,
+      "pitch": 0.0,
+      "roll": 0.0,
+      "yaw": 45.0,
+      "ground_speed": 15.0,
+      "heading": 45.0
+    },
+    "detection_timestamp": 1751264305.927946
+  },
+  {
+    "target_id": "DT_T0024",
+    "detected_number": "未识别",
+    "pixel_position": {
+      "x": 822,
+      "y": 297
+    },
+    "confidence": 0.8647838830947876,
+    "gps_position": {
+      "latitude": 39.74627129799386,
+      "longitude": 116.41915834681834
+    },
+    "flight_data": {
+      "timestamp": 1751264306.025825,
+      "latitude": 39.7401,
+      "longitude": 116.4083,
+      "altitude": 100.0,
+      "pitch": 0.0,
+      "roll": 0.0,
+      "yaw": 45.0,
+      "ground_speed": 15.0,
+      "heading": 45.0
+    },
+    "detection_timestamp": 1751264306.025825
+  },
+  {
+    "target_id": "DT_T0025",
+    "detected_number": "21",
+    "pixel_position": {
+      "x": 506,
+      "y": 437
+    },
+    "confidence": 0.8293554186820984,
+    "gps_position": {
+      "latitude": 39.748159577896416,
+      "longitude": 116.4167026939988
+    },
+    "flight_data": {
+      "timestamp": 1751264306.025825,
+      "latitude": 39.7401,
+      "longitude": 116.4083,
+      "altitude": 100.0,
+      "pitch": 0.0,
+      "roll": 0.0,
+      "yaw": 45.0,
+      "ground_speed": 15.0,
+      "heading": 45.0
+    },
+    "detection_timestamp": 1751264306.025825
+  },
+  {
+    "target_id": "DT_T0026",
+    "detected_number": "6",
+    "pixel_position": {
+      "x": 602,
+      "y": 218
+    },
+    "confidence": 0.8219246864318848,
+    "gps_position": {
+      "latitude": 39.74429445292153,
+      "longitude": 116.41342572404847
+    },
+    "flight_data": {
+      "timestamp": 1751264306.025825,
+      "latitude": 39.7401,
+      "longitude": 116.4083,
+      "altitude": 100.0,
+      "pitch": 0.0,
+      "roll": 0.0,
+      "yaw": 45.0,
+      "ground_speed": 15.0,
+      "heading": 45.0
+    },
+    "detection_timestamp": 1751264306.025825
+  },
+  {
+    "target_id": "DT_T0027",
+    "detected_number": "未识别",
+    "pixel_position": {
+      "x": 822,
+      "y": 297
+    },
+    "confidence": 0.8672632575035095,
+    "gps_position": {
+      "latitude": 39.74637129799385,
+      "longitude": 116.41925836257455
+    },
+    "flight_data": {
+      "timestamp": 1751264306.1218889,
+      "latitude": 39.740199999999994,
+      "longitude": 116.4084,
+      "altitude": 100.0,
+      "pitch": 0.0,
+      "roll": 0.0,
+      "yaw": 45.0,
+      "ground_speed": 15.0,
+      "heading": 45.0
+    },
+    "detection_timestamp": 1751264306.1218889
+  },
+  {
+    "target_id": "DT_T0028",
+    "detected_number": "未识别",
+    "pixel_position": {
+      "x": 506,
+      "y": 436
+    },
+    "confidence": 0.8274675607681274,
+    "gps_position": {
+      "latitude": 39.74825957789641,
+      "longitude": 116.41680270619169
+    },
+    "flight_data": {
+      "timestamp": 1751264306.1218889,
+      "latitude": 39.740199999999994,
+      "longitude": 116.4084,
+      "altitude": 100.0,
+      "pitch": 0.0,
+      "roll": 0.0,
+      "yaw": 45.0,
+      "ground_speed": 15.0,
+      "heading": 45.0
+    },
+    "detection_timestamp": 1751264306.1218889
+  },
+  {
+    "target_id": "DT_T0029",
+    "detected_number": "6",
+    "pixel_position": {
+      "x": 602,
+      "y": 218
+    },
+    "confidence": 0.8247354626655579,
+    "gps_position": {
+      "latitude": 39.744394452921526,
+      "longitude": 116.41352573148625
+    },
+    "flight_data": {
+      "timestamp": 1751264306.1218889,
+      "latitude": 39.740199999999994,
+      "longitude": 116.4084,
+      "altitude": 100.0,
+      "pitch": 0.0,
+      "roll": 0.0,
+      "yaw": 45.0,
+      "ground_speed": 15.0,
+      "heading": 45.0
+    },
+    "detection_timestamp": 1751264306.1218889
+  },
+  {
+    "target_id": "DT_T0030",
+    "detected_number": "未识别",
+    "pixel_position": {
+      "x": 822,
+      "y": 297
+    },
+    "confidence": 0.8675634264945984,
+    "gps_position": {
+      "latitude": 39.74647129799386,
+      "longitude": 116.41935837833083
+    },
+    "flight_data": {
+      "timestamp": 1751264306.2139075,
+      "latitude": 39.7403,
+      "longitude": 116.40849999999999,
+      "altitude": 100.0,
+      "pitch": 0.0,
+      "roll": 0.0,
+      "yaw": 45.0,
+      "ground_speed": 15.0,
+      "heading": 45.0
+    },
+    "detection_timestamp": 1751264306.2139075
+  },
+  {
+    "target_id": "DT_T0031",
+    "detected_number": "未识别",
+    "pixel_position": {
+      "x": 506,
+      "y": 436
+    },
+    "confidence": 0.8274169564247131,
+    "gps_position": {
+      "latitude": 39.748359577896416,
+      "longitude": 116.41690271838462
+    },
+    "flight_data": {
+      "timestamp": 1751264306.2139075,
+      "latitude": 39.7403,
+      "longitude": 116.40849999999999,
+      "altitude": 100.0,
+      "pitch": 0.0,
+      "roll": 0.0,
+      "yaw": 45.0,
+      "ground_speed": 15.0,
+      "heading": 45.0
+    },
+    "detection_timestamp": 1751264306.2139075
+  },
+  {
+    "target_id": "DT_T0032",
+    "detected_number": "9",
+    "pixel_position": {
+      "x": 602,
+      "y": 218
+    },
+    "confidence": 0.8254546523094177,
+    "gps_position": {
+      "latitude": 39.74449445292153,
+      "longitude": 116.41362573892405
+    },
+    "flight_data": {
+      "timestamp": 1751264306.2139075,
+      "latitude": 39.7403,
+      "longitude": 116.40849999999999,
+      "altitude": 100.0,
+      "pitch": 0.0,
+      "roll": 0.0,
+      "yaw": 45.0,
+      "ground_speed": 15.0,
+      "heading": 45.0
+    },
+    "detection_timestamp": 1751264306.2139075
+  },
+  {
+    "target_id": "DT_T0033",
+    "detected_number": "未识别",
+    "pixel_position": {
+      "x": 823,
+      "y": 296
+    },
+    "confidence": 0.8683226108551025,
+    "gps_position": {
+      "latitude": 39.746565223662564,
+      "longitude": 116.41946629361188
+    },
+    "flight_data": {
+      "timestamp": 1751264306.2894108,
+      "latitude": 39.740399999999994,
+      "longitude": 116.40859999999999,
+      "altitude": 100.0,
+      "pitch": 0.0,
+      "roll": 0.0,
+      "yaw": 45.0,
+      "ground_speed": 15.0,
+      "heading": 45.0
+    },
+    "detection_timestamp": 1751264306.2894108
+  },
+  {
+    "target_id": "DT_T0034",
+    "detected_number": "未识别",
+    "pixel_position": {
+      "x": 507,
+      "y": 436
+    },
+    "confidence": 0.8290513157844543,
+    "gps_position": {
+      "latitude": 39.74845356655127,
+      "longitude": 116.4170105481903
+    },
+    "flight_data": {
+      "timestamp": 1751264306.2894108,
+      "latitude": 39.740399999999994,
+      "longitude": 116.40859999999999,
+      "altitude": 100.0,
+      "pitch": 0.0,
+      "roll": 0.0,
+      "yaw": 45.0,
+      "ground_speed": 15.0,
+      "heading": 45.0
+    },
+    "detection_timestamp": 1751264306.2894108
+  },
+  {
+    "target_id": "DT_T0035",
+    "detected_number": "95",
+    "pixel_position": {
+      "x": 603,
+      "y": 218
+    },
+    "confidence": 0.8264856934547424,
+    "gps_position": {
+      "latitude": 39.74459112170703,
+      "longitude": 116.41373007852785
+    },
+    "flight_data": {
+      "timestamp": 1751264306.2894108,
+      "latitude": 39.740399999999994,
+      "longitude": 116.40859999999999,
+      "altitude": 100.0,
+      "pitch": 0.0,
+      "roll": 0.0,
+      "yaw": 45.0,
+      "ground_speed": 15.0,
+      "heading": 45.0
+    },
+    "detection_timestamp": 1751264306.2894108
+  },
+  {
+    "target_id": "DT_T0036",
+    "detected_number": "未识别",
+    "pixel_position": {
+      "x": 823,
+      "y": 297
+    },
+    "confidence": 0.8694095015525818,
+    "gps_position": {
+      "latitude": 39.74666522366257,
+      "longitude": 116.41956630937977
+    },
+    "flight_data": {
+      "timestamp": 1751264306.388496,
+      "latitude": 39.7405,
+      "longitude": 116.4087,
+      "altitude": 100.0,
+      "pitch": 0.0,
+      "roll": 0.0,
+      "yaw": 45.0,
+      "ground_speed": 15.0,
+      "heading": 45.0
+    },
+    "detection_timestamp": 1751264306.388496
+  },
+  {
+    "target_id": "DT_T0037",
+    "detected_number": "未识别",
+    "pixel_position": {
+      "x": 507,
+      "y": 436
+    },
+    "confidence": 0.8280541300773621,
+    "gps_position": {
+      "latitude": 39.74855356655127,
+      "longitude": 116.41711056039472
+    },
+    "flight_data": {
+      "timestamp": 1751264306.388496,
+      "latitude": 39.7405,
+      "longitude": 116.4087,
+      "altitude": 100.0,
+      "pitch": 0.0,
+      "roll": 0.0,
+      "yaw": 45.0,
+      "ground_speed": 15.0,
+      "heading": 45.0
+    },
+    "detection_timestamp": 1751264306.388496
+  },
+  {
+    "target_id": "DT_T0038",
+    "detected_number": "95",
+    "pixel_position": {
+      "x": 603,
+      "y": 218
+    },
+    "confidence": 0.826513409614563,
+    "gps_position": {
+      "latitude": 39.744691121707035,
+      "longitude": 116.41383008597202
+    },
+    "flight_data": {
+      "timestamp": 1751264306.388496,
+      "latitude": 39.7405,
+      "longitude": 116.4087,
+      "altitude": 100.0,
+      "pitch": 0.0,
+      "roll": 0.0,
+      "yaw": 45.0,
+      "ground_speed": 15.0,
+      "heading": 45.0
+    },
+    "detection_timestamp": 1751264306.388496
+  },
+  {
+    "target_id": "DT_T0039",
+    "detected_number": "未识别",
+    "pixel_position": {
+      "x": 823,
+      "y": 296
+    },
+    "confidence": 0.8693025708198547,
+    "gps_position": {
+      "latitude": 39.746765223662564,
+      "longitude": 116.41966632514777
+    },
+    "flight_data": {
+      "timestamp": 1751264306.503433,
+      "latitude": 39.74059999999999,
+      "longitude": 116.4088,
+      "altitude": 100.0,
+      "pitch": 0.0,
+      "roll": 0.0,
+      "yaw": 45.0,
+      "ground_speed": 15.0,
+      "heading": 45.0
+    },
+    "detection_timestamp": 1751264306.503433
+  },
+  {
+    "target_id": "DT_T0040",
+    "detected_number": "未识别",
+    "pixel_position": {
+      "x": 507,
+      "y": 436
+    },
+    "confidence": 0.8309267163276672,
+    "gps_position": {
+      "latitude": 39.74865356655127,
+      "longitude": 116.4172105725992
+    },
+    "flight_data": {
+      "timestamp": 1751264306.503433,
+      "latitude": 39.74059999999999,
+      "longitude": 116.4088,
+      "altitude": 100.0,
+      "pitch": 0.0,
+      "roll": 0.0,
+      "yaw": 45.0,
+      "ground_speed": 15.0,
+      "heading": 45.0
+    },
+    "detection_timestamp": 1751264306.503433
+  },
+  {
+    "target_id": "DT_T0041",
+    "detected_number": "95",
+    "pixel_position": {
+      "x": 603,
+      "y": 217
+    },
+    "confidence": 0.8244225978851318,
+    "gps_position": {
+      "latitude": 39.744761337373205,
+      "longitude": 116.41389363625143
+    },
+    "flight_data": {
+      "timestamp": 1751264306.503433,
+      "latitude": 39.74059999999999,
+      "longitude": 116.4088,
+      "altitude": 100.0,
+      "pitch": 0.0,
+      "roll": 0.0,
+      "yaw": 45.0,
+      "ground_speed": 15.0,
+      "heading": 45.0
+    },
+    "detection_timestamp": 1751264306.503433
+  },
+  {
+    "target_id": "DT_T0042",
+    "detected_number": "未识别",
+    "pixel_position": {
+      "x": 823,
+      "y": 296
+    },
+    "confidence": 0.8686345815658569,
+    "gps_position": {
+      "latitude": 39.74686522366257,
+      "longitude": 116.41976634091581
+    },
+    "flight_data": {
+      "timestamp": 1751264306.5874894,
+      "latitude": 39.7407,
+      "longitude": 116.40889999999999,
+      "altitude": 100.0,
+      "pitch": 0.0,
+      "roll": 0.0,
+      "yaw": 45.0,
+      "ground_speed": 15.0,
+      "heading": 45.0
+    },
+    "detection_timestamp": 1751264306.5874894
+  },
+  {
+    "target_id": "DT_T0043",
+    "detected_number": "未识别",
+    "pixel_position": {
+      "x": 507,
+      "y": 436
+    },
+    "confidence": 0.8313761949539185,
+    "gps_position": {
+      "latitude": 39.74875356655127,
+      "longitude": 116.41731058480372
+    },
+    "flight_data": {
+      "timestamp": 1751264306.5874894,
+      "latitude": 39.7407,
+      "longitude": 116.40889999999999,
+      "altitude": 100.0,
+      "pitch": 0.0,
+      "roll": 0.0,
+      "yaw": 45.0,
+      "ground_speed": 15.0,
+      "heading": 45.0
+    },
+    "detection_timestamp": 1751264306.5874894
+  },
+  {
+    "target_id": "DT_T0044",
+    "detected_number": "95",
+    "pixel_position": {
+      "x": 603,
+      "y": 217
+    },
+    "confidence": 0.823441207408905,
+    "gps_position": {
+      "latitude": 39.74486133737321,
+      "longitude": 116.41399364364277
+    },
+    "flight_data": {
+      "timestamp": 1751264306.5874894,
+      "latitude": 39.7407,
+      "longitude": 116.40889999999999,
+      "altitude": 100.0,
+      "pitch": 0.0,
+      "roll": 0.0,
+      "yaw": 45.0,
+      "ground_speed": 15.0,
+      "heading": 45.0
+    },
+    "detection_timestamp": 1751264306.5874894
+  },
+  {
+    "target_id": "DT_T0045",
+    "detected_number": "未识别",
+    "pixel_position": {
+      "x": 823,
+      "y": 296
+    },
+    "confidence": 0.8696164488792419,
+    "gps_position": {
+      "latitude": 39.74696522366257,
+      "longitude": 116.41986635668397
+    },
+    "flight_data": {
+      "timestamp": 1751264306.6731045,
+      "latitude": 39.7408,
+      "longitude": 116.40899999999999,
+      "altitude": 100.0,
+      "pitch": 0.0,
+      "roll": 0.0,
+      "yaw": 45.0,
+      "ground_speed": 15.0,
+      "heading": 45.0
+    },
+    "detection_timestamp": 1751264306.6731045
+  },
+  {
+    "target_id": "DT_T0046",
+    "detected_number": "21",
+    "pixel_position": {
+      "x": 507,
+      "y": 436
+    },
+    "confidence": 0.8312207460403442,
+    "gps_position": {
+      "latitude": 39.748853566551276,
+      "longitude": 116.41741059700831
+    },
+    "flight_data": {
+      "timestamp": 1751264306.6731045,
+      "latitude": 39.7408,
+      "longitude": 116.40899999999999,
+      "altitude": 100.0,
+      "pitch": 0.0,
+      "roll": 0.0,
+      "yaw": 45.0,
+      "ground_speed": 15.0,
+      "heading": 45.0
+    },
+    "detection_timestamp": 1751264306.6731045
+  },
+  {
+    "target_id": "DT_T0047",
+    "detected_number": "95",
+    "pixel_position": {
+      "x": 603,
+      "y": 217
+    },
+    "confidence": 0.823631227016449,
+    "gps_position": {
+      "latitude": 39.74496133737321,
+      "longitude": 116.41409365103415
+    },
+    "flight_data": {
+      "timestamp": 1751264306.6731045,
+      "latitude": 39.7408,
+      "longitude": 116.40899999999999,
+      "altitude": 100.0,
+      "pitch": 0.0,
+      "roll": 0.0,
+      "yaw": 45.0,
+      "ground_speed": 15.0,
+      "heading": 45.0
+    },
+    "detection_timestamp": 1751264306.6731045
+  },
+  {
+    "target_id": "DT_T0048",
+    "detected_number": "未识别",
+    "pixel_position": {
+      "x": 824,
+      "y": 296
+    },
+    "confidence": 0.870479941368103,
+    "gps_position": {
+      "latitude": 39.74705914783182,
+      "longitude": 116.4199742739842
+    },
+    "flight_data": {
+      "timestamp": 1751264306.7719207,
+      "latitude": 39.740899999999996,
+      "longitude": 116.4091,
+      "altitude": 100.0,
+      "pitch": 0.0,
+      "roll": 0.0,
+      "yaw": 45.0,
+      "ground_speed": 15.0,
+      "heading": 45.0
+    },
+    "detection_timestamp": 1751264306.7719207
+  },
+  {
+    "target_id": "DT_T0049",
+    "detected_number": "21",
+    "pixel_position": {
+      "x": 507,
+      "y": 436
+    },
+    "confidence": 0.8307182788848877,
+    "gps_position": {
+      "latitude": 39.74895356655127,
+      "longitude": 116.41751060921298
+    },
+    "flight_data": {
+      "timestamp": 1751264306.7719207,
+      "latitude": 39.740899999999996,
+      "longitude": 116.4091,
+      "altitude": 100.0,
+      "pitch": 0.0,
+      "roll": 0.0,
+      "yaw": 45.0,
+      "ground_speed": 15.0,
+      "heading": 45.0
+    },
+    "detection_timestamp": 1751264306.7719207
+  },
+  {
+    "target_id": "DT_T0050",
+    "detected_number": "95",
+    "pixel_position": {
+      "x": 603,
+      "y": 217
+    },
+    "confidence": 0.8244168758392334,
+    "gps_position": {
+      "latitude": 39.74506133737321,
+      "longitude": 116.41419365842557
+    },
+    "flight_data": {
+      "timestamp": 1751264306.7719207,
+      "latitude": 39.740899999999996,
+      "longitude": 116.4091,
+      "altitude": 100.0,
+      "pitch": 0.0,
+      "roll": 0.0,
+      "yaw": 45.0,
+      "ground_speed": 15.0,
+      "heading": 45.0
+    },
+    "detection_timestamp": 1751264306.7719207
+  },
+  {
+    "target_id": "DT_T0051",
+    "detected_number": "未识别",
+    "pixel_position": {
+      "x": 825,
+      "y": 296
+    },
+    "confidence": 0.8709831833839417,
+    "gps_position": {
+      "latitude": 39.747153070492935,
+      "longitude": 116.42008219326877
+    },
+    "flight_data": {
+      "timestamp": 1751264306.882465,
+      "latitude": 39.741,
+      "longitude": 116.4092,
+      "altitude": 100.0,
+      "pitch": 0.0,
+      "roll": 0.0,
+      "yaw": 45.0,
+      "ground_speed": 15.0,
+      "heading": 45.0
+    },
+    "detection_timestamp": 1751264306.882465
+  },
+  {
+    "target_id": "DT_T0052",
+    "detected_number": "未识别",
+    "pixel_position": {
+      "x": 507,
+      "y": 436
+    },
+    "confidence": 0.8293375968933105,
+    "gps_position": {
+      "latitude": 39.749053566551275,
+      "longitude": 116.4176106214177
+    },
+    "flight_data": {
+      "timestamp": 1751264306.882465,
+      "latitude": 39.741,
+      "longitude": 116.4092,
+      "altitude": 100.0,
+      "pitch": 0.0,
+      "roll": 0.0,
+      "yaw": 45.0,
+      "ground_speed": 15.0,
+      "heading": 45.0
+    },
+    "detection_timestamp": 1751264306.882465
+  },
+  {
+    "target_id": "DT_T0053",
+    "detected_number": "未识别",
+    "pixel_position": {
+      "x": 603,
+      "y": 217
+    },
+    "confidence": 0.8246436715126038,
+    "gps_position": {
+      "latitude": 39.74516133737321,
+      "longitude": 116.41429366581703
+    },
+    "flight_data": {
+      "timestamp": 1751264306.882465,
+      "latitude": 39.741,
+      "longitude": 116.4092,
+      "altitude": 100.0,
+      "pitch": 0.0,
+      "roll": 0.0,
+      "yaw": 45.0,
+      "ground_speed": 15.0,
+      "heading": 45.0
+    },
+    "detection_timestamp": 1751264306.882465
+  },
+  {
+    "target_id": "DT_T0054",
+    "detected_number": "未识别",
+    "pixel_position": {
+      "x": 825,
+      "y": 296
+    },
+    "confidence": 0.8710358142852783,
+    "gps_position": {
+      "latitude": 39.74725307049293,
+      "longitude": 116.42018220906009
+    },
+    "flight_data": {
+      "timestamp": 1751264306.970523,
+      "latitude": 39.741099999999996,
+      "longitude": 116.4093,
+      "altitude": 100.0,
+      "pitch": 0.0,
+      "roll": 0.0,
+      "yaw": 45.0,
+      "ground_speed": 15.0,
+      "heading": 45.0
+    },
+    "detection_timestamp": 1751264306.970523
+  },
+  {
+    "target_id": "DT_T0055",
+    "detected_number": "未识别",
+    "pixel_position": {
+      "x": 507,
+      "y": 436
+    },
+    "confidence": 0.8293465375900269,
+    "gps_position": {
+      "latitude": 39.74915356655127,
+      "longitude": 116.41771063362248
+    },
+    "flight_data": {
+      "timestamp": 1751264306.970523,
+      "latitude": 39.741099999999996,
+      "longitude": 116.4093,
+      "altitude": 100.0,
+      "pitch": 0.0,
+      "roll": 0.0,
+      "yaw": 45.0,
+      "ground_speed": 15.0,
+      "heading": 45.0
+    },
+    "detection_timestamp": 1751264306.970523
+  },
+  {
+    "target_id": "DT_T0056",
+    "detected_number": "95",
+    "pixel_position": {
+      "x": 603,
+      "y": 217
+    },
+    "confidence": 0.8228698968887329,
+    "gps_position": {
+      "latitude": 39.74526133737321,
+      "longitude": 116.41439367320854
+    },
+    "flight_data": {
+      "timestamp": 1751264306.970523,
+      "latitude": 39.741099999999996,
+      "longitude": 116.4093,
+      "altitude": 100.0,
+      "pitch": 0.0,
+      "roll": 0.0,
+      "yaw": 45.0,
+      "ground_speed": 15.0,
+      "heading": 45.0
+    },
+    "detection_timestamp": 1751264306.970523
+  },
+  {
+    "target_id": "DT_T0057",
+    "detected_number": "未识别",
+    "pixel_position": {
+      "x": 825,
+      "y": 296
+    },
+    "confidence": 0.8702942728996277,
+    "gps_position": {
+      "latitude": 39.747353070492935,
+      "longitude": 116.42028222485146
+    },
+    "flight_data": {
+      "timestamp": 1751264307.0678954,
+      "latitude": 39.7412,
+      "longitude": 116.40939999999999,
+      "altitude": 100.0,
+      "pitch": 0.0,
+      "roll": 0.0,
+      "yaw": 45.0,
+      "ground_speed": 15.0,
+      "heading": 45.0
+    },
+    "detection_timestamp": 1751264307.0678954
+  },
+  {
+    "target_id": "DT_T0058",
+    "detected_number": "21",
+    "pixel_position": {
+      "x": 507,
+      "y": 436
+    },
+    "confidence": 0.8298927545547485,
+    "gps_position": {
+      "latitude": 39.749253566551275,
+      "longitude": 116.41781064582732
+    },
+    "flight_data": {
+      "timestamp": 1751264307.0678954,
+      "latitude": 39.7412,
+      "longitude": 116.40939999999999,
+      "altitude": 100.0,
+      "pitch": 0.0,
+      "roll": 0.0,
+      "yaw": 45.0,
+      "ground_speed": 15.0,
+      "heading": 45.0
+    },
+    "detection_timestamp": 1751264307.0678954
+  },
+  {
+    "target_id": "DT_T0059",
+    "detected_number": "95",
+    "pixel_position": {
+      "x": 603,
+      "y": 217
+    },
+    "confidence": 0.8227410912513733,
+    "gps_position": {
+      "latitude": 39.74536133737321,
+      "longitude": 116.41449368060005
+    },
+    "flight_data": {
+      "timestamp": 1751264307.0678954,
+      "latitude": 39.7412,
+      "longitude": 116.40939999999999,
+      "altitude": 100.0,
+      "pitch": 0.0,
+      "roll": 0.0,
+      "yaw": 45.0,
+      "ground_speed": 15.0,
+      "heading": 45.0
+    },
+    "detection_timestamp": 1751264307.0678954
+  },
+  {
+    "target_id": "DT_T0060",
+    "detected_number": "2",
+    "pixel_position": {
+      "x": 825,
+      "y": 296
+    },
+    "confidence": 0.8704174160957336,
+    "gps_position": {
+      "latitude": 39.74745307049293,
+      "longitude": 116.42038224064294
+    },
+    "flight_data": {
+      "timestamp": 1751264307.1683872,
+      "latitude": 39.741299999999995,
+      "longitude": 116.4095,
+      "altitude": 100.0,
+      "pitch": 0.0,
+      "roll": 0.0,
+      "yaw": 45.0,
+      "ground_speed": 15.0,
+      "heading": 45.0
+    },
+    "detection_timestamp": 1751264307.1683872
+  },
+  {
+    "target_id": "DT_T0061",
+    "detected_number": "未识别",
+    "pixel_position": {
+      "x": 507,
+      "y": 436
+    },
+    "confidence": 0.8300994038581848,
+    "gps_position": {
+      "latitude": 39.74935356655127,
+      "longitude": 116.41791065803221
+    },
+    "flight_data": {
+      "timestamp": 1751264307.1683872,
+      "latitude": 39.741299999999995,
+      "longitude": 116.4095,
+      "altitude": 100.0,
+      "pitch": 0.0,
+      "roll": 0.0,
+      "yaw": 45.0,
+      "ground_speed": 15.0,
+      "heading": 45.0
+    },
+    "detection_timestamp": 1751264307.1683872
+  },
+  {
+    "target_id": "DT_T0062",
+    "detected_number": "95",
+    "pixel_position": {
+      "x": 604,
+      "y": 217
+    },
+    "confidence": 0.823712170124054,
+    "gps_position": {
+      "latitude": 39.74545802999596,
+      "longitude": 116.41459798921396
+    },
+    "flight_data": {
+      "timestamp": 1751264307.1683872,
+      "latitude": 39.741299999999995,
+      "longitude": 116.4095,
+      "altitude": 100.0,
+      "pitch": 0.0,
+      "roll": 0.0,
+      "yaw": 45.0,
+      "ground_speed": 15.0,
+      "heading": 45.0
+    },
+    "detection_timestamp": 1751264307.1683872
+  },
+  {
+    "target_id": "DT_T0063",
+    "detected_number": "未识别",
+    "pixel_position": {
+      "x": 824,
+      "y": 296
+    },
+    "confidence": 0.8694866299629211,
+    "gps_position": {
+      "latitude": 39.74755914783182,
+      "longitude": 116.42047435288382
+    },
+    "flight_data": {
+      "timestamp": 1751264307.257636,
+      "latitude": 39.7414,
+      "longitude": 116.4096,
+      "altitude": 100.0,
+      "pitch": 0.0,
+      "roll": 0.0,
+      "yaw": 45.0,
+      "ground_speed": 15.0,
+      "heading": 45.0
+    },
+    "detection_timestamp": 1751264307.257636
+  },
+  {
+    "target_id": "DT_T0064",
+    "detected_number": "未识别",
+    "pixel_position": {
+      "x": 507,
+      "y": 436
+    },
+    "confidence": 0.8304184079170227,
+    "gps_position": {
+      "latitude": 39.749453566551274,
+      "longitude": 116.41801067023718
+    },
+    "flight_data": {
+      "timestamp": 1751264307.257636,
+      "latitude": 39.7414,
+      "longitude": 116.4096,
+      "altitude": 100.0,
+      "pitch": 0.0,
+      "roll": 0.0,
+      "yaw": 45.0,
+      "ground_speed": 15.0,
+      "heading": 45.0
+    },
+    "detection_timestamp": 1751264307.257636
+  },
+  {
+    "target_id": "DT_T0065",
+    "detected_number": "95",
+    "pixel_position": {
+      "x": 603,
+      "y": 217
+    },
+    "confidence": 0.823872447013855,
+    "gps_position": {
+      "latitude": 39.74556133737321,
+      "longitude": 116.41469369538324
+    },
+    "flight_data": {
+      "timestamp": 1751264307.257636,
+      "latitude": 39.7414,
+      "longitude": 116.4096,
+      "altitude": 100.0,
+      "pitch": 0.0,
+      "roll": 0.0,
+      "yaw": 45.0,
+      "ground_speed": 15.0,
+      "heading": 45.0
+    },
+    "detection_timestamp": 1751264307.257636
+  },
+  {
+    "target_id": "DT_T0066",
+    "detected_number": "未识别",
+    "pixel_position": {
+      "x": 824,
+      "y": 296
+    },
+    "confidence": 0.8692432045936584,
+    "gps_position": {
+      "latitude": 39.74765914783182,
+      "longitude": 116.42057436866398
+    },
+    "flight_data": {
+      "timestamp": 1751264307.3498466,
+      "latitude": 39.741499999999995,
+      "longitude": 116.4097,
+      "altitude": 100.0,
+      "pitch": 0.0,
+      "roll": 0.0,
+      "yaw": 45.0,
+      "ground_speed": 15.0,
+      "heading": 45.0
+    },
+    "detection_timestamp": 1751264307.3498466
+  }
+]

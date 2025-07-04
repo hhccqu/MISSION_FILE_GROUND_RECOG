@@ -3,6 +3,7 @@
 """
 SITL仿真打击任务系统
 连接Mission Planner SITL仿真，使用真实MAVLink数据
+集成高精度图像转正功能
 """
 
 import time
@@ -18,6 +19,7 @@ import cv2
 import numpy as np
 import threading
 from queue import Queue, Empty
+from typing import Tuple, Optional
 
 # MAVLink相关
 try:
@@ -27,6 +29,230 @@ try:
 except ImportError:
     MAVLINK_AVAILABLE = False
     print("❌ MAVLink库不可用，请安装: pip install pymavlink")
+
+class ImageOrientationCorrector:
+    """高精度图像方向校正器"""
+    
+    def __init__(self, debug_mode: bool = False):
+        """
+        初始化校正器
+        
+        Args:
+            debug_mode: 是否开启调试模式
+        """
+        self.debug_mode = debug_mode
+        self.debug_images = {}
+        self.correction_stats = {
+            'total_processed': 0,
+            'successful_corrections': 0,
+            'failed_corrections': 0
+        }
+    
+    def preprocess_image(self, image: np.ndarray) -> np.ndarray:
+        """
+        图像预处理：基于红色颜色识别进行二值化、形态学操作
+        
+        Args:
+            image: 输入图像
+            
+        Returns:
+            处理后的二值图像
+        """
+        # 1. 确保图像是BGR格式
+        if len(image.shape) != 3:
+            return None
+        
+        # 2. 高斯滤波去噪
+        blurred = cv2.GaussianBlur(image, (5, 5), 0)
+        
+        # 3. 基于红色的颜色分割
+        red_mask_bgr = self._create_red_mask_bgr(blurred)
+        red_mask_hsv = self._create_red_mask_hsv(blurred)
+        red_mask_lab = self._create_red_mask_lab(blurred)
+        
+        # 组合多个颜色空间的结果
+        combined_mask = cv2.bitwise_or(red_mask_hsv, red_mask_bgr)
+        combined_mask = cv2.bitwise_or(combined_mask, red_mask_lab)
+        
+        # 4. 形态学操作优化掩码
+        kernel_small = cv2.getStructuringElement(cv2.MORPH_ELLIPSE, (3, 3))
+        kernel_medium = cv2.getStructuringElement(cv2.MORPH_ELLIPSE, (5, 5))
+        
+        # 开运算：去除小噪点
+        opened = cv2.morphologyEx(combined_mask, cv2.MORPH_OPEN, kernel_small)
+        
+        # 闭运算：填充小孔洞
+        closed = cv2.morphologyEx(opened, cv2.MORPH_CLOSE, kernel_medium)
+        
+        # 膨胀操作：增强连通性
+        dilated = cv2.dilate(closed, kernel_small, iterations=1)
+        
+        return dilated
+    
+    def _create_red_mask_bgr(self, image: np.ndarray) -> np.ndarray:
+        """在BGR颜色空间中创建红色掩码"""
+        lower_red1 = np.array([0, 0, 100])
+        upper_red1 = np.array([80, 80, 255])
+        
+        lower_red2 = np.array([0, 0, 150])
+        upper_red2 = np.array([100, 100, 255])
+        
+        mask1 = cv2.inRange(image, lower_red1, upper_red1)
+        mask2 = cv2.inRange(image, lower_red2, upper_red2)
+        
+        return cv2.bitwise_or(mask1, mask2)
+    
+    def _create_red_mask_hsv(self, image: np.ndarray) -> np.ndarray:
+        """在HSV颜色空间中创建红色掩码"""
+        hsv = cv2.cvtColor(image, cv2.COLOR_BGR2HSV)
+        
+        # 红色范围1 (0-10度)
+        lower_red1 = np.array([0, 50, 50])
+        upper_red1 = np.array([10, 255, 255])
+        
+        # 红色范围2 (170-180度)
+        lower_red2 = np.array([170, 50, 50])
+        upper_red2 = np.array([180, 255, 255])
+        
+        mask1 = cv2.inRange(hsv, lower_red1, upper_red1)
+        mask2 = cv2.inRange(hsv, lower_red2, upper_red2)
+        
+        return cv2.bitwise_or(mask1, mask2)
+    
+    def _create_red_mask_lab(self, image: np.ndarray) -> np.ndarray:
+        """在LAB颜色空间中创建红色掩码"""
+        lab = cv2.cvtColor(image, cv2.COLOR_BGR2LAB)
+        
+        lower_red = np.array([20, 150, 150])
+        upper_red = np.array([255, 255, 255])
+        
+        return cv2.inRange(lab, lower_red, upper_red)
+    
+    def find_largest_contour(self, binary_image: np.ndarray) -> Optional[np.ndarray]:
+        """找到最大的轮廓"""
+        contours, _ = cv2.findContours(binary_image, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
+        
+        if not contours:
+            return None
+        
+        largest_contour = max(contours, key=cv2.contourArea)
+        area = cv2.contourArea(largest_contour)
+        
+        if area < 100:
+            return None
+        
+        return largest_contour
+    
+    def find_tip_point(self, contour: np.ndarray) -> Optional[Tuple[int, int]]:
+        """找到轮廓的尖端点"""
+        if contour is None or len(contour) < 3:
+            return None
+        
+        moments = cv2.moments(contour)
+        if moments['m00'] == 0:
+            return None
+        
+        # 计算质心
+        centroid_x = int(moments['m10'] / moments['m00'])
+        centroid_y = int(moments['m01'] / moments['m00'])
+        
+        # 找到距离质心最远的点
+        max_distance = 0
+        tip_point = None
+        
+        for point in contour:
+            x, y = point[0]
+            distance = np.sqrt((x - centroid_x)**2 + (y - centroid_y)**2)
+            if distance > max_distance:
+                max_distance = distance
+                tip_point = (x, y)
+        
+        return tip_point
+    
+    def calculate_rotation_angle(self, tip_point: Tuple[int, int], 
+                               image_center: Tuple[int, int]) -> float:
+        """计算使尖端朝上所需的旋转角度"""
+        dx = tip_point[0] - image_center[0]
+        dy = tip_point[1] - image_center[1]
+        
+        angle_rad = np.arctan2(dx, -dy)
+        angle_deg = np.degrees(angle_rad)
+        
+        return angle_deg
+    
+    def rotate_image(self, image: np.ndarray, angle: float) -> np.ndarray:
+        """旋转图像"""
+        center = (image.shape[1] // 2, image.shape[0] // 2)
+        rotation_matrix = cv2.getRotationMatrix2D(center, angle, 1.0)
+        
+        rotated = cv2.warpAffine(image, rotation_matrix, 
+                                (image.shape[1], image.shape[0]),
+                                flags=cv2.INTER_LINEAR,
+                                borderMode=cv2.BORDER_CONSTANT,
+                                borderValue=(255, 255, 255))
+        
+        return rotated
+    
+    def correct_orientation(self, image: np.ndarray) -> Tuple[np.ndarray, dict]:
+        """主要的方向校正函数"""
+        self.correction_stats['total_processed'] += 1
+        
+        info = {
+            'success': False,
+            'rotation_angle': 0,
+            'tip_point': None,
+            'contour_area': 0,
+            'error_message': None
+        }
+        
+        try:
+            # 1. 预处理
+            processed = self.preprocess_image(image)
+            if processed is None:
+                info['error_message'] = "预处理失败"
+                self.correction_stats['failed_corrections'] += 1
+                return image, info
+            
+            # 2. 找到最大轮廓
+            contour = self.find_largest_contour(processed)
+            if contour is None:
+                info['error_message'] = "未找到有效轮廓"
+                self.correction_stats['failed_corrections'] += 1
+                return image, info
+            
+            info['contour_area'] = cv2.contourArea(contour)
+            
+            # 3. 找到尖端点
+            tip_point = self.find_tip_point(contour)
+            if tip_point is None:
+                info['error_message'] = "未找到尖端点"
+                self.correction_stats['failed_corrections'] += 1
+                return image, info
+            
+            info['tip_point'] = tip_point
+            
+            # 4. 计算旋转角度
+            image_center = (image.shape[1] // 2, image.shape[0] // 2)
+            angle = self.calculate_rotation_angle(tip_point, image_center)
+            info['rotation_angle'] = angle
+            
+            # 5. 旋转图像
+            corrected_image = self.rotate_image(image, angle)
+            
+            info['success'] = True
+            self.correction_stats['successful_corrections'] += 1
+            
+            return corrected_image, info
+            
+        except Exception as e:
+            error_msg = f"处理过程中发生错误: {str(e)}"
+            info['error_message'] = error_msg
+            self.correction_stats['failed_corrections'] += 1
+            return image, info
+    
+    def get_stats(self):
+        """获取校正统计信息"""
+        return self.correction_stats.copy()
 
 class SITLFlightDataProvider:
     """SITL飞行数据提供器"""
@@ -244,7 +470,7 @@ class SITLFlightDataProvider:
         print("✅ SITL连接已断开")
 
 class SITLStrikeMissionSystem(StrikeMissionSystem):
-    """SITL打击任务系统"""
+    """SITL打击任务系统（集成高精度图像转正）"""
     
     def __init__(self, config=None, sitl_connection="udpin:localhost:14550"):
         """
@@ -257,19 +483,31 @@ class SITLStrikeMissionSystem(StrikeMissionSystem):
         super().__init__(config)
         self.sitl_connection = sitl_connection
         self.flight_data_provider = None
+        self.orientation_corrector = None
         
     def initialize(self):
         """初始化所有组件"""
         print("🚀 初始化SITL打击任务系统...")
         
-        # 1. 初始化SITL连接
+        # 1. 尝试初始化SITL连接
         print("🛩️ 初始化SITL连接...")
         self.flight_data_provider = SITLFlightDataProvider(self.sitl_connection)
         
-        if not self.flight_data_provider.connect():
-            raise RuntimeError("无法连接到SITL仿真")
+        sitl_connected = False
+        try:
+            sitl_connected = self.flight_data_provider.connect()
+        except Exception as e:
+            print(f"⚠️ SITL连接失败，将使用模拟数据: {e}")
         
-        # 2. 初始化其他组件（与父类相同，但跳过GPS模拟器）
+        if not sitl_connected:
+            print("⚠️ SITL连接失败，将使用模拟飞行数据继续运行")
+            self.flight_data_provider = None
+        
+        # 2. 初始化高精度图像转正器
+        print("🔄 初始化高精度图像转正器...")
+        self.orientation_corrector = ImageOrientationCorrector(debug_mode=False)
+        
+        # 3. 初始化其他组件（与父类相同，但跳过GPS模拟器）
         print("📡 初始化目标检测器...")
         model_path = self._find_model()
         if not model_path:
@@ -295,17 +533,106 @@ class SITLStrikeMissionSystem(StrikeMissionSystem):
         print("✅ SITL系统初始化完成！")
         
         # 打印连接状态
-        self._print_sitl_status()
+        if self.flight_data_provider:
+            self._print_sitl_status()
+        else:
+            print("📊 运行模式: 模拟飞行数据模式")
+    
+    def _rotate_arrow(self, crop_image):
+        """
+        高精度箭头旋转校正（使用ImageOrientationCorrector）
+        
+        Args:
+            crop_image: 裁剪的箭头图像
+            
+        Returns:
+            校正后的图像
+        """
+        try:
+            if self.orientation_corrector is None:
+                # 如果转正器未初始化，使用简化版本
+                return self._rotate_arrow_simple(crop_image)
+            
+            # 使用高精度转正器
+            corrected_image, correction_info = self.orientation_corrector.correct_orientation(crop_image)
+            
+            # 记录转正信息（静默处理）
+            if correction_info['success']:
+                # 成功转正
+                return corrected_image
+            else:
+                # 转正失败，静默返回原图
+                return crop_image
+                
+        except Exception as e:
+            # 静默处理错误，使用简化版本
+            return self._rotate_arrow_simple(crop_image)
+    
+    def _rotate_arrow_simple(self, crop_image):
+        """简化版箭头旋转校正（备用方案）"""
+        try:
+            # 转换为HSV进行红色检测
+            hsv = cv2.cvtColor(crop_image, cv2.COLOR_BGR2HSV)
+            
+            # 红色范围
+            lower_red1 = np.array([0, 30, 30])
+            upper_red1 = np.array([30, 255, 255])
+            lower_red2 = np.array([150, 30, 30])
+            upper_red2 = np.array([179, 255, 255])
+            
+            mask1 = cv2.inRange(hsv, lower_red1, upper_red1)
+            mask2 = cv2.inRange(hsv, lower_red2, upper_red2)
+            mask = cv2.bitwise_or(mask1, mask2)
+            
+            # 查找轮廓
+            contours, _ = cv2.findContours(mask, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
+            
+            if contours:
+                # 找到最大轮廓
+                max_contour = max(contours, key=cv2.contourArea)
+                rect = cv2.minAreaRect(max_contour)
+                (_, _), (w, h), angle = rect
+                
+                # 角度修正
+                if w > h:
+                    angle += 90
+                
+                # 执行旋转
+                (h, w) = crop_image.shape[:2]
+                center = (w // 2, h // 2)
+                M = cv2.getRotationMatrix2D(center, angle, 1.0)
+                rotated = cv2.warpAffine(crop_image, M, (w, h), borderValue=(255, 255, 255))
+                
+                return rotated
+            
+        except Exception as e:
+            print(f"简化转正失败: {e}")
+        
+        return crop_image
     
     def process_frame(self, frame):
         """
-        处理单帧图像（使用SITL飞行数据）
+        处理单帧图像（使用SITL飞行数据或模拟数据）
         """
         self.frame_count += 1
         current_time = time.time()
         
-        # 获取SITL飞行数据
-        flight_data = self.flight_data_provider.get_current_flight_data()
+        # 获取飞行数据（SITL或模拟）
+        if self.flight_data_provider:
+            flight_data = self.flight_data_provider.get_current_flight_data()
+        else:
+            # 使用模拟飞行数据
+            flight_data = FlightData(
+                timestamp=current_time,
+                latitude=39.7392 + (self.frame_count * 0.0001),  # 模拟移动
+                longitude=116.4074 + (self.frame_count * 0.0001),
+                altitude=100.0,
+                pitch=0.0,
+                roll=0.0,
+                yaw=45.0,
+                ground_speed=15.0,
+                heading=45.0
+            )
         
         # 其余处理逻辑与父类相同
         detections = self.detector.detect(frame)
@@ -340,19 +667,23 @@ class SITLStrikeMissionSystem(StrikeMissionSystem):
                 
                 rotated = self._rotate_arrow(crop)
                 
-                ocr_text = ""
-                if self.frame_count % self.config['ocr_interval'] == 0:
-                    ocr_text = self._perform_ocr(rotated)
-                    if ocr_text:
-                        self.stats['ocr_success'] += 1
+                # 暂时禁用OCR识别以提高流畅性
+                # ocr_text = ""
+                # try:
+                #     ocr_text = self._perform_ocr(rotated)
+                #     if ocr_text:
+                #         self.stats['ocr_success'] += 1
+                # except Exception as e:
+                #     print(f"OCR识别失败: {e}")
                 
-                numbers = self.number_extractor.extract_two_digit_numbers(ocr_text)
-                detected_number = numbers[0] if numbers else "未识别"
+                # numbers = self.number_extractor.extract_two_digit_numbers(ocr_text)
+                # detected_number = numbers[0] if numbers else "未识别"
+                detected_number = "未识别"  # 暂时固定为未识别
                 
                 center_x = (x1 + x2) // 2
                 center_y = (y1 + y2) // 2
                 
-                # 使用SITL飞行数据计算目标GPS坐标
+                # 使用飞行数据计算目标GPS坐标
                 target_lat, target_lon = self.geo_calculator.calculate_target_position(
                     center_x, center_y, flight_data
                 )
@@ -382,7 +713,7 @@ class SITLStrikeMissionSystem(StrikeMissionSystem):
                 print(f"处理目标 {i} 时出错: {e}")
                 continue
         
-        # 绘制SITL飞行信息
+        # 绘制飞行信息
         self._draw_sitl_flight_info(processed_frame, flight_data)
         
         # 绘制统计信息
@@ -390,22 +721,100 @@ class SITLStrikeMissionSystem(StrikeMissionSystem):
         
         return processed_frame, valid_targets
     
-    def _draw_sitl_flight_info(self, frame, flight_data):
-        """绘制SITL飞行信息"""
-        sitl_status = self.flight_data_provider.get_connection_status()
+    def _draw_detection_result(self, frame, x1, y1, x2, y2, target_info, rotated_crop):
+        """在图像上绘制检测结果，包括转正图像和OCR结果"""
+        # 绘制检测框
+        cv2.rectangle(frame, (x1, y1), (x2, y2), (0, 255, 0), 2)
         
-        info_lines = [
-            f"🛩️ SITL模式 - {sitl_status['connection_string']}",
-            f"GPS: {flight_data.latitude:.6f}, {flight_data.longitude:.6f}",
-            f"高度: {flight_data.altitude:.1f}m",
-            f"姿态: P{flight_data.pitch:.1f}° R{flight_data.roll:.1f}° Y{flight_data.yaw:.1f}°",
-            f"速度: {flight_data.ground_speed:.1f}m/s 航向: {flight_data.heading:.1f}°",
-            f"消息: {sitl_status['message_count']} GPS: {sitl_status['gps_count']}",
-            f"心跳: {sitl_status['heartbeat_age']:.1f}s前"
-        ]
+        # 绘制目标信息
+        info_text = f"ID:{target_info.target_id} 数字:{target_info.detected_number}"
+        cv2.putText(frame, info_text, (x1, y1 - 10), 
+                   cv2.FONT_HERSHEY_SIMPLEX, 0.6, (0, 255, 255), 2)
+        
+        # 绘制GPS坐标
+        gps_text = f"GPS:{target_info.latitude:.6f},{target_info.longitude:.6f}"
+        cv2.putText(frame, gps_text, (x1, y2 + 20), 
+                   cv2.FONT_HERSHEY_SIMPLEX, 0.4, (255, 255, 0), 1)
+        
+        # 绘制置信度
+        conf_text = f"Conf:{target_info.confidence:.2f}"
+        cv2.putText(frame, conf_text, (x1, y2 + 35), 
+                   cv2.FONT_HERSHEY_SIMPLEX, 0.4, (255, 0, 255), 1)
+        
+        # 显示转正后的图像缩略图
+        if rotated_crop is not None and rotated_crop.size > 0:
+            # 调整转正图像大小为固定尺寸
+            thumbnail_size = 80
+            try:
+                # 确保图像不为空
+                if rotated_crop.shape[0] > 0 and rotated_crop.shape[1] > 0:
+                    rotated_resized = cv2.resize(rotated_crop, (thumbnail_size, thumbnail_size))
+                    
+                    # 计算缩略图位置（在检测框右上角）
+                    thumb_x = min(x2 + 5, frame.shape[1] - thumbnail_size)
+                    thumb_y = max(y1, thumbnail_size)
+                    
+                    # 确保缩略图不超出画面边界
+                    if thumb_x + thumbnail_size <= frame.shape[1] and thumb_y - thumbnail_size >= 0:
+                        # 在主画面上叠加转正后的图像
+                        frame[thumb_y-thumbnail_size:thumb_y, thumb_x:thumb_x+thumbnail_size] = rotated_resized
+                        
+                        # 给缩略图加边框
+                        cv2.rectangle(frame, (thumb_x, thumb_y-thumbnail_size), 
+                                    (thumb_x+thumbnail_size, thumb_y), (0, 255, 255), 2)
+                        
+                        # 在缩略图上方添加"转正后"标签
+                        cv2.putText(frame, "转正后", (thumb_x, thumb_y-thumbnail_size-5), 
+                                   cv2.FONT_HERSHEY_SIMPLEX, 0.4, (0, 255, 255), 1)
+                            
+            except Exception as e:
+                # 静默处理错误，避免影响流畅性
+                pass
+    
+    def _draw_sitl_flight_info(self, frame, flight_data):
+        """绘制飞行信息和图像转正统计"""
+        # 获取图像转正统计
+        correction_stats = self.orientation_corrector.get_stats() if self.orientation_corrector else {
+            'total_processed': 0, 'successful_corrections': 0, 'failed_corrections': 0
+        }
+        
+        success_rate = 0
+        if correction_stats['total_processed'] > 0:
+            success_rate = (correction_stats['successful_corrections'] / correction_stats['total_processed']) * 100
+        
+        # 根据是否有SITL连接显示不同信息
+        if self.flight_data_provider:
+            sitl_status = self.flight_data_provider.get_connection_status()
+            info_lines = [
+                f"🛩️ SITL模式 - {sitl_status['connection_string']}",
+                f"GPS: {flight_data.latitude:.6f}, {flight_data.longitude:.6f}",
+                f"高度: {flight_data.altitude:.1f}m",
+                f"姿态: P{flight_data.pitch:.1f}° R{flight_data.roll:.1f}° Y{flight_data.yaw:.1f}°",
+                f"速度: {flight_data.ground_speed:.1f}m/s 航向: {flight_data.heading:.1f}°",
+                f"消息: {sitl_status['message_count']} GPS: {sitl_status['gps_count']}",
+                f"心跳: {sitl_status['heartbeat_age']:.1f}s前",
+                f"🔄 转正统计: {correction_stats['successful_corrections']}/{correction_stats['total_processed']} ({success_rate:.1f}%)"
+            ]
+        else:
+            info_lines = [
+                f"🎮 模拟模式 - 使用模拟飞行数据",
+                f"GPS: {flight_data.latitude:.6f}, {flight_data.longitude:.6f}",
+                f"高度: {flight_data.altitude:.1f}m",
+                f"姿态: P{flight_data.pitch:.1f}° R{flight_data.roll:.1f}° Y{flight_data.yaw:.1f}°",
+                f"速度: {flight_data.ground_speed:.1f}m/s 航向: {flight_data.heading:.1f}°",
+                f"帧数: {self.frame_count}",
+                f"🔄 转正统计: {correction_stats['successful_corrections']}/{correction_stats['total_processed']} ({success_rate:.1f}%)"
+            ]
         
         for i, line in enumerate(info_lines):
-            color = (0, 255, 0) if i == 0 else (255, 255, 255)  # 第一行用绿色
+            # 根据内容选择颜色
+            if i == 0:
+                color = (0, 255, 0) if self.flight_data_provider else (255, 165, 0)  # SITL用绿色，模拟用橙色
+            elif "转正统计" in line:
+                color = (0, 255, 255)  # 转正统计用黄色
+            else:
+                color = (255, 255, 255)  # 其他信息用白色
+            
             cv2.putText(frame, line, (10, 25 + i * 20), 
                        cv2.FONT_HERSHEY_SIMPLEX, 0.5, color, 1)
     
@@ -446,6 +855,19 @@ class SITLStrikeMissionSystem(StrikeMissionSystem):
         print(f"  有效目标: {self.data_manager.get_targets_count()}")
         print(f"  OCR成功: {self.stats['ocr_success']}")
         
+        # 打印图像转正统计
+        if self.orientation_corrector:
+            correction_stats = self.orientation_corrector.get_stats()
+            success_rate = 0
+            if correction_stats['total_processed'] > 0:
+                success_rate = (correction_stats['successful_corrections'] / correction_stats['total_processed']) * 100
+            
+            print(f"  🔄 图像转正统计:")
+            print(f"    总处理: {correction_stats['total_processed']}")
+            print(f"    转正成功: {correction_stats['successful_corrections']}")
+            print(f"    转正失败: {correction_stats['failed_corrections']}")
+            print(f"    成功率: {success_rate:.1f}%")
+        
         if self.stats['start_time']:
             elapsed = time.time() - self.stats['start_time']
             print(f"  运行时间: {elapsed:.1f}秒")
@@ -455,13 +877,13 @@ class SITLStrikeMissionSystem(StrikeMissionSystem):
 
 def main():
     """主函数"""
-    print("🛩️ SITL仿真打击任务系统")
-    print("=" * 50)
+    print("🛩️ SITL仿真打击任务系统 (集成高精度图像转正)")
+    print("=" * 60)
     
     # SITL连接配置
     sitl_connections = [
+        "tcp:localhost:5760",     # ArduPilot SITL默认TCP端口 (用户当前使用)
         "udpin:localhost:14550",  # Mission Planner默认UDP端口
-        "tcp:localhost:5760",     # ArduPilot SITL默认TCP端口
         "udp:localhost:14540",    # 备用UDP端口
     ]
     
@@ -471,10 +893,13 @@ def main():
         'camera_fov_h': 60.0,
         'camera_fov_v': 45.0,
         'altitude': 100.0,  # SITL中的高度
-        'save_file': 'sitl_targets.json',
+        'save_file': 'sitl_targets_with_correction.json',
         'min_confidence': 0.5,
         'ocr_interval': 5,
-        'max_targets_per_frame': 5
+        'max_targets_per_frame': 5,
+        # 图像转正相关配置
+        'orientation_correction': True,  # 是否启用高精度转正
+        'correction_debug': False,       # 是否开启转正调试模式
     }
     
     # 视频源
@@ -484,6 +909,8 @@ def main():
     print(f"  视频源: {video_source}")
     print(f"  保存文件: {config['save_file']}")
     print(f"  相机视场角: {config['camera_fov_h']}° × {config['camera_fov_v']}°")
+    print(f"  🔄 高精度转正: {'✅ 启用' if config['orientation_correction'] else '❌ 禁用'}")
+    print(f"  🐛 转正调试: {'✅ 启用' if config['correction_debug'] else '❌ 禁用'}")
     print()
     
     # 尝试不同的SITL连接
@@ -507,7 +934,7 @@ def main():
         return
     
     try:
-        print(f"\n🎯 开始SITL打击任务...")
+        print(f"\n🎯 开始SITL打击任务（集成高精度图像转正）...")
         print("按键说明:")
         print("  'q' - 退出任务")
         print("  's' - 保存数据")

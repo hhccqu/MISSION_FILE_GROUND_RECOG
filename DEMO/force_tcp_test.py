@@ -103,7 +103,7 @@ def test_listen_mode():
         sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
         sock.bind(('127.0.0.1', 14550))  # 标准地面站端口
         sock.settimeout(10)
-        
+              
         print("UDP监听端口14550已开启，等待数据...")
         
         data, addr = sock.recvfrom(1024)
